@@ -139,16 +139,16 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Confiabilidad
 - **Priority:** Alta
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
 | Part | Component | Description |
 | :--- | :--- | :--- |
-| **1** | **Source** | Falla del servidor o de la red |
+| **1** | **Source** | Servidor |
 | **2** | **Stimulus** | **Interrumpir** una operación mientras se guarda información. |
 | **3** | **Artifact** | Base de datos |
-| **4** | **Environment** | El sistema opera de forma normal durante el registro o actualización de información. |
+| **4** | **Environment** | Operación con fallos en el servidor |
 | **5** | **Response** | El sistema revierte la operación y conserva la última información válida. |
 | **6** | **Response Measure** | 100% de las operaciones interrumpidas deben conservar la información anterior sin datos incompletos o duplicados. |
 
@@ -167,9 +167,9 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 ## Metadata
 
 - **Quality Attribute:** Costo
-- **Priority:** Alta
+- **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -199,7 +199,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Disponibilidad
 - **Priority:** Alta
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -207,8 +207,8 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 | :--- | :--- | :--- |
 | **1** | **Source** | Falla de conexión a Internet |
 | **2** | **Stimulus** | **Perder** la conexión a Internet mientras se registra un visitante. |
-| **3** | **Artifact** | Sistema de portería |
-| **4** | **Environment** | El sistema opera normalmente durante el registro de visitantes. |
+| **3** | **Artifact** | Sistema |
+| **4** | **Environment** | El sistema en operación sin conexión a internet |
 | **5** | **Response** | El sistema permite registrar al visitante y sincroniza la información cuando se restablece la conexión. |
 | **6** | **Response Measure** | 0 registros perdidos y sincronización completada en un máximo de 10 segundos después de restablecer la conexión. |
 
@@ -229,15 +229,15 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Escalabilidad
 - **Priority:** Alta
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
 | Part | Component | Description |
 | :--- | :--- | :--- |
 | **1** | **Source** | Administrador |
-| **2** | **Stimulus** | **Incorporar** nuevos conjuntos residenciales al sistema. |
-| **3** | **Artifact** | Base de datos |
+| **2** | **Stimulus** | **Incorporar** nuevos conjuntos residenciales al sistema.|
+| **3** | **Artifact** | Sistema en operación normal con un agregado de nuevos clientes |
 | **4** | **Environment** | El sistema aumenta el número de conjuntos administrados. |
 | **5** | **Response** | El sistema registra los nuevos conjuntos sin afectar la información existente. |
 | **6** | **Response Measure** | 100% de la información de los conjuntos existentes debe conservarse correctamente después de incorporar nuevos conjuntos. |
@@ -289,7 +289,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Accesibilidad
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -319,7 +319,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Usabilidad
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -349,7 +349,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Costo
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -379,7 +379,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Costo
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -409,7 +409,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Disponibilidad
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -439,7 +439,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Escalabilidad
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -469,7 +469,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Rendimiento
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -499,7 +499,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 - **Quality Attribute:** Seguridad
 - **Priority:** Media
 - **Difficulty / Risk:** Media
-- **Status:** Aprobado
+- **Status:** Draft
 
 ## Scenario Definition
 
@@ -527,7 +527,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Usabilidad - UX
 * **Priority:** Media
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -552,7 +552,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Usabilidad - UX
 * **Priority:** Media
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -577,7 +577,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Accesibilidad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -602,7 +602,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Confiabilidad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -627,7 +627,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Confiabilidad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -652,7 +652,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Confiabilidad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -677,7 +677,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Costo
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -702,7 +702,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Escalabilidad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -727,7 +727,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Rendimiento
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -752,7 +752,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Rendimiento
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -777,7 +777,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Seguridad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -802,7 +802,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Seguridad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
@@ -827,7 +827,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 * **Quality Attribute:** Seguridad
 * **Priority:** Baja
 * **Difficulty / Risk:** Media
-* **Status:** Aprobado
+* **Status:** Draft
 
 ## Scenario Definition
 
