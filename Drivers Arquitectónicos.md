@@ -775,7 +775,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 
 ## Metadata
 * **Quality Attribute:** Seguridad
-* **Priority:** Alta
+* **Priority:** Baja
 * **Difficulty / Risk:** Media
 * **Status:** Aprobado
 
@@ -784,8 +784,8 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 | Part | Component | Description |
 | :--- | :--- | :--- |
 | **1** | **Source** | Administrador |
-| **2** | **Stimulus** | Modifica o borra información crítica. |
-| **3** | **Artifact** | Sistema en operación normal|
+| **2** | **Stimulus** | Modifica o borra información crítica (ej. cuotas, altas, bajas). |
+| **3** | **Artifact** | Sistema de Logs (Backend). |
 | **4** | **Environment** | Operaciones mutables con repercusiones serias. |
 | **5** | **Response** | Guarda silenciosamente usuario, fecha e IP en un log inmutable. |
 | **6** | **Response Measure** | 100% de cobertura en operaciones admin registradas. |
@@ -800,8 +800,8 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 
 ## Metadata
 * **Quality Attribute:** Seguridad
-* **Priority:** Alta
-* **Difficulty / Risk:** Baja
+* **Priority:** Baja
+* **Difficulty / Risk:** Media
 * **Status:** Aprobado
 
 ## Scenario Definition
@@ -810,7 +810,7 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 | :--- | :--- | :--- |
 | **1** | **Source** | Administrador |
 | **2** | **Stimulus** | Clic en borrar definitivamente un historial. |
-| **3** | **Artifact** | Sistema en operación normal |
+| **3** | **Artifact** | Frontend y Endpoints DELETE. |
 | **4** | **Environment** | Panel de configuración o limpieza. |
 | **5** | **Response** | Interrumpe la acción pidiendo confirmación expresa (modal). |
 | **6** | **Response Measure** | 0 borrados accidentales por clics equivocados. |
@@ -825,23 +825,23 @@ Gracias al mapa de empatía logramos definir cuáles son los usuarios que más i
 
 ## Metadata
 * **Quality Attribute:** Seguridad
-* **Priority:** Alta
-* **Difficulty / Risk:** Baja
+* **Priority:** Baja
+* **Difficulty / Risk:** Media
 * **Status:** Aprobado
 
 ## Scenario Definition
 
 | Part | Component | Description |
 | :--- | :--- | :--- |
-| **1** | **Source** | Usuario |
+| **1** | **Source** | Administrador / Entorno |
 | **2** | **Stimulus** | Deja el PC desbloqueado en panel de admin y se retira. |
-| **3** | **Artifact** | Sistema en operación normal |
-| **4** | **Environment** | Operación normal del sistema|
+| **3** | **Artifact** | Tokens (Frontend/Backend). |
+| **4** | **Environment** | Dispositivos compartidos (portería, oficina). |
 | **5** | **Response** | Purga la sesión activa y redirige al login. |
 | **6** | **Response Measure** | Cierre automático exacto a los 30 minutos sin peticiones. |
 
 ## Architecture Notes
-* **Business Rationale:** Prevenir secuestros de sesión físicas (alguien externo entrando a la cabina del vigilante o una persona ajena a la cuenta ingresando desde el dispositivo no propio).
+* **Business Rationale:** Prevenir secuestros de sesión físicas (alguien externo entrando a la cabina).
 * **Architectural Tactics:** JWT con tiempo de expiración corto.
 * **Assumptions & Risks:** N/A
 
