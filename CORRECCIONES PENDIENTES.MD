@@ -5,3 +5,7 @@
 * #### Se define primero la arquitectura y de ella se toma en cuenta para evaluar el stakc tecnológico. (referenciarlo)
 * #### Divide el ADR 6 (autenticacion y autorización)
 
+* #### Crear PoC de base de datos multi-tenant y documentar
+
+* ####
+
