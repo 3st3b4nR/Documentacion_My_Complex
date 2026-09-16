@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="o2YQBQwBRhRIPNywivPx">
-    <mxGraphModel dx="2117" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3502" dy="3896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
           <mxGeometry height="30" width="160" x="130" y="450" as="geometry" />
         </mxCell>
         <mxCell id="HPPn84EBtkUCIATROiHE-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;MODELO NIVEL 1&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;(MODELO DE CONTEXTO)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="310" x="550" y="-850" as="geometry" />
+          <mxGeometry height="140" width="310" x="390" y="-1180" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Propietario" c4Type="Person" c4Description="Encargado de recibir información relacionada con la entrada de visitantes, reuniones, noticias y puede generar reservas" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="HPPn84EBtkUCIATROiHE-16">
           <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
