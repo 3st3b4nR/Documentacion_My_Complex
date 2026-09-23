@@ -2,11 +2,7 @@
 
 [ ] Agregar rol de Administrador General del sistema y reevaluar los puntos anteriores de la documentación
 
-[**Listo** ] Agregar pagos (ADR)
-
 [ ] Revisar el ADR 2 (indexedDB que no genere conflictos con el stack seleccionado)
-
-[ **Listo**] Generar ADR para CI/CD (Estrategias de ramificación, versionado y pruebas unitaras)
 
 [] terminar diagrama draw
 [] agregar HU de imagenes en el portal de noticias
