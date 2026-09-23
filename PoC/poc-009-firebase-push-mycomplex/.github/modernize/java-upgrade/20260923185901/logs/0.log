@@ -1,0 +1,234 @@
+2026-09-23T21:08:01.066Z [INFO] ---------------------prepare appmod-build-java-project----------------------
+2026-09-23T21:08:01.069Z [INFO] [Tool.prepareInvocation]({name: appmod-build-java-project, input: {
+  "sessionId": "20260923185901",
+  "projectPath": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex",
+  "jdkPath": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2",
+  "buildToolPath": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin\\mvn.cmd"
+}}).
+2026-09-23T21:08:01.070Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-23T21:08:01.071Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Build project"
+}}).
+2026-09-23T21:08:01.073Z [INFO] ----------------------prepared appmod-build-java-project----------------------
+2026-09-23T21:08:01.314Z [INFO] ----------------------invoke appmod-build-java-project----------------------
+2026-09-23T21:08:01.316Z [INFO] [Tool.invoke]({name: appmod-build-java-project, modelId: auto, input: {
+  "sessionId": "20260923185901",
+  "projectPath": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex",
+  "jdkPath": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2",
+  "buildToolPath": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin\\mvn.cmd"
+}}).
+2026-09-23T21:08:01.317Z [INFO] [Tool.invoke] do invoke.
+2026-09-23T21:08:01.319Z [INFO] Project c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex is a maven project, try to get java version from pom.xml
+2026-09-23T21:08:01.322Z [INFO] Project java version: 21
+2026-09-23T21:08:01.327Z [INFO] Maven project detected.
+2026-09-23T21:08:01.328Z [INFO] Build tool type: mvn
+2026-09-23T21:08:01.329Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2\\bin",
+  "version": "21"
+}
+2026-09-23T21:08:01.330Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin\\mvn.cmd\\bin",
+  "version": ""
+}
+2026-09-23T21:08:01.332Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin\\mvn.cmd\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "poc-009-firebase-push-mycomplex",
+  "dir": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex"
+}
+2026-09-23T21:08:01.335Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex using Maven
+2026-09-23T21:08:01.342Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+El sistema no puede encontrar la ruta especificada.
+2026-09-23T21:08:01.554Z [WARN] Initial mvn clean compile failed, attempting mvn clean install to fix dependency errors.
+2026-09-23T21:08:01.556Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex using Maven
+2026-09-23T21:08:01.562Z [INFO] [Environment] Running command (Java undefined): mvn clean install -DskipTests -Dgpg.skip -Ddockerfile.skip -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+El sistema no puede encontrar la ruta especificada.
+2026-09-23T21:08:01.759Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+El sistema no puede encontrar la ruta especificada.
+2026-09-23T21:08:01.870Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-23T21:08:01.873Z [ERROR] [Tool.invoke] error occurs when invoking tool appmod-build-java-project: Error: Build tool failed to run (exit code 1):
+El sistema no puede encontrar la ruta especificada..
+2026-09-23T21:08:01.874Z [INFO] ----------------------invoked appmod-build-java-project----------------------
+2026-09-23T21:08:33.036Z [INFO] ---------------------prepare appmod-build-java-project----------------------
+2026-09-23T21:08:33.040Z [INFO] [Tool.prepareInvocation]({name: appmod-build-java-project, input: {
+  "sessionId": "20260923185901",
+  "projectPath": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex",
+  "jdkPath": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2",
+  "buildToolPath": "C:\\Users\\lucua\\.maven\\maven-3.9.16"
+}}).
+2026-09-23T21:08:33.046Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-09-23T21:08:33.052Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Build project"
+}}).
+2026-09-23T21:08:33.055Z [INFO] ----------------------prepared appmod-build-java-project----------------------
+2026-09-23T21:08:33.320Z [INFO] ----------------------invoke appmod-build-java-project----------------------
+2026-09-23T21:08:33.322Z [INFO] [Tool.invoke]({name: appmod-build-java-project, modelId: auto, input: {
+  "sessionId": "20260923185901",
+  "projectPath": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex",
+  "jdkPath": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2",
+  "buildToolPath": "C:\\Users\\lucua\\.maven\\maven-3.9.16"
+}}).
+2026-09-23T21:08:33.324Z [INFO] [Tool.invoke] do invoke.
+2026-09-23T21:08:33.326Z [INFO] Project c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex is a maven project, try to get java version from pom.xml
+2026-09-23T21:08:33.330Z [INFO] Project java version: 21
+2026-09-23T21:08:33.332Z [INFO] Build tool type detected from path: mvn
+2026-09-23T21:08:33.333Z [INFO] Build tool type: mvn
+2026-09-23T21:08:33.335Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2\\bin",
+  "version": "21"
+}
+2026-09-23T21:08:33.337Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin",
+  "version": ""
+}
+2026-09-23T21:08:33.338Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\lucua\\.maven\\maven-3.9.16\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\lucua\\.jdks\\jdk-25.0.2\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "poc-009-firebase-push-mycomplex",
+  "dir": "c:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex"
+}
+2026-09-23T21:08:33.340Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex using Maven
+2026-09-23T21:08:33.346Z [INFO] [Environment] Running command (Java undefined): mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex\target\classes\com\mycomplex\pocpush\config -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-23T21:09:43.310Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-09-23T21:09:43.313Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex
+2026-09-23T21:09:43.316Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex
+2026-09-23T21:09:43.322Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-4177483e-c684-403e-b473-995b4b568dea.log
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.1/build-helper-maven-plugin-3.6.1.pom
+Progress (1): 1.1 kBProgress (1): 2.7 kBProgress (1): 5.7 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.1/build-helper-maven-plugin-3.6.1.pom (8.1 kB at 6.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/91/mojo-parent-91.pom
+Progress (1): 715 BProgress (1): 1.6 kBProgress (1): 5.2 kBProgress (1): 7.2 kBProgress (1): 8.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 23 kBProgress (1): 27 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 35 kBProgress (1): 38 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/91/mojo-parent-91.pom (38 kB at 189 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.1/build-helper-maven-plugin-3.6.1.jar
+Progress (1): 0.9/72 kBProgress (1): 2.3/72 kBProgress (1): 3.6/72 kBProgress (1): 5.0/72 kBProgress (1): 6.4/72 kBProgress (1): 7.7/72 kBProgress (1): 9.1/72 kBProgress (1): 10/72 kB Progress (1): 12/72 kBProgress (1): 13/72 kBProgress (1): 15/72 kBProgress (1): 15/72 kBProgress (1): 17/72 kBProgress (1): 18/72 kBProgress (1): 20/72 kBProgress (1): 21/72 kBProgress (1): 22/72 kBProgress (1): 24/72 kBProgress (1): 25/72 kBProgress (1): 26/72 kBProgress (1): 28/72 kBProgress (1): 29/72 kBProgress (1): 31/72 kBProgress (1): 32/72 kBProgress (1): 33/72 kBProgress (1): 35/72 kBProgress (1): 36/72 kBProgress (1): 37/72 kBProgress (1): 39/72 kBProgress (1): 40/72 kBProgress (1): 41/72 kBProgress (1): 43/72 kBProgress (1): 47/72 kBProgress (1): 51/72 kBProgress (1): 55/72 kBProgress (1): 60/72 kBProgress (1): 64/72 kBProgress (1): 68/72 kBProgress (1): 72 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.1/build-helper-maven-plugin-3.6.1.jar (72 kB at 366 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom
+Progress (1): 780 BProgress (1): 2.0 kBProgress (1): 5.0 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom (10 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar
+Progress (1): 3.8/65 kBProgress (1): 8.0/65 kBProgress (1): 12/65 kB Progress (1): 16/65 kBProgress (1): 21/65 kBProgress (1): 24/65 kBProgress (1): 28/65 kBProgress (1): 33/65 kBProgress (1): 37/65 kBProgress (1): 41/65 kBProgress (1): 45/65 kBProgress (1): 49/65 kBProgress (1): 54/65 kBProgress (1): 57/65 kBProgress (1): 61/65 kBProgress (1): 65 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar (65 kB at 434 kB/s)
+[INFO] 
+[INFO] ------------------< com.mycomplex:poc-firebase-push >-------------------
+[INFO] Building poc-firebase-push 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.1:effective-pom (default-cli) @ poc-firebase-push ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom
+Progress (1): 841 BProgress (1): 3.6 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.pom (4.1 kB at 25 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom
+Progress (1): 803 BProgress (1): 2.3 kBProgress (1): 4.1 kBProgress (1): 9.1 kBProgress (1): 13 kB Progress (1): 17 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.13.1/maven-plugin-tools-3.13.1.pom (18 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.pom
+Progress (1): 820 BProgress (1): 3.4 kBProgress (1): 10 kB Progress (1): 17 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.pom (17 kB at 122 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.9.0.M3/sisu-inject-0.9.0.M3.pom
+Progress (1): 777 BProgress (1): 2.7 kBProgress (1): 4.7 kBProgress (1): 8.0 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.9.0.M3/sisu-inject-0.9.0.M3.pom (24 kB at 162 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.pom
+Progress (1): 804 BProgress (1): 3.7 kBProgress (1): 11 kB Progress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.pom (20 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom
+Progress (1): 791 BProgress (1): 2.2 kBProgress (1): 4.3 kBProgress (1): 7.4 kBProgress (1): 9.5 kBProgress (1): 12 kB Progress (1): 15 kBProgress (1): 16 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.pom (16 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.pom
+Progress (1): 791 BProgress (1): 2.4 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.pom (2.8 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/43/maven-shared-components-43.pom
+Progress (1): 811 BProgress (1): 2.3 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/43/maven-shared-components-43.pom (3.8 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom
+Progress (1): 1.6 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.pom (1.7 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom
+Progress (1): 1.3 kBProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.3/plexus-interactivity-1.3.pom (1.9 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom
+Progress (1): 880 BProgress (1): 4.2 kBProgress (1): 7.1 kBProgress (1): 10 kB Progress (1): 14 kBProgress (1): 22 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.pom (25 kB at 173 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom
+Progress (1): 797 BProgress (1): 3.2 kBProgress (1): 5.9 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 19 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 34 kBProgress (1): 38 kBProgress (1): 41 kBProgress (1): 43 kBProgress (1): 44 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.4.20/xstream-parent-1.4.20.pom (44 kB at 214 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom
+Progress (1): 817 BProgress (1): 2.9 kBProgress (1): 6.3 kBProgress (1): 10 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 24 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.pom (24 kB at 157 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom
+Progress (1): 386 B                   Downloaded from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.pom (386 B at 4.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar
+Progress (1): 7.7/44 kBProgress (1): 7.7/44 kBProgress (1): 24/44 kB Progress (1): 40/44 kBProgress (1): 44 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.13.1/maven-plugin-tools-generators-3.13.1.jar (44 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar
+Progress (1): 7.7/434 kBProgress (1): 7.7/434 kBProgress (1): 24/434 kB Progress (1): 40/434 kBProgress (1): 57/434 kBProgress (1): 73/434 kBProgress (1): 90/434 kBProgress (1): 106/434 kBProgress (1): 122/434 kBProgress (1): 139/434 kBProgress (1): 155/434 kBProgress (1): 172/434 kBProgress (1): 188/434 kBProgress (1): 204/434 kBProgress (1): 221/434 kBProgress (1): 224/434 kBProgress (1): 241/434 kBProgress (1): 246/434 kBProgress (1): 262/434 kBProgress (1): 279/434 kBProgress (1): 295/434 kBProgress (1): 311/434 kBProgress (1): 328/434 kBProgress (1): 344/434 kBProgress (1): 360/434 kBProgress (1): 377/434 kBProgress (1): 393/434 kBProgress (1): 410/434 kBProgress (1): 426/434 kBProgress (1): 434 kB    Progress (2): 434 kB | 0.9/216 kBProgress (2): 434 kB | 2.3/216 kBProgress (2): 434 kB | 3.6/216 kBProgress (2): 434 kB | 5.0/216 kBProgress (2): 434 kB | 6.4/216 kBProgress (2): 434 kB | 7.7/216 kBProgress (2): 434 kB | 9.1/216 kBProgress (2): 434 kB | 10/216 kB Progress (2): 434 kB | 11/216 kBProgress (2): 434 kB | 13/216 kBProgress (2): 434 kB | 14/216 kBProgress (2): 434 kB | 15/216 kBProgress (2): 434 kB | 17/216 kBProgress (2): 434 kB | 18/216 kBProgress (2): 434 kB | 20/216 kBProgress (2): 434 kB | 21/216 kBProgress (2): 434 kB | 22/216 kBProgress (2): 434 kB | 24/216 kBProgress (2): 434 kB | 25/216 kBProgress (2): 434 kB | 26/216 kBProgress (2): 434 kB | 28/216 kBProgress (2): 434 kB | 29/216 kBProgress (2): 434 kB | 30/216 kBProgress (2): 434 kB | 32/216 kBProgress (2): 434 kB | 33/216 kBProgress (2): 434 kB | 35/216 kBProgress (3): 434 kB | 35/216 kB | 0.9/10 kBProgress (3): 434 kB | 35/216 kB | 2.3/10 kBProgress (3): 434 kB | 35/216 kB | 3.6/10 kBProgress (3): 434 kB | 35/216 kB | 5.0/10 kBProgress (3): 434 kB | 35/216 kB | 6.4/10 kBProgress (4): 434 kB | 35/216 kB | 6.4/10 kB | 0.9/9.8 kBProgress (4): 434 kB | 36/216 kB | 6.4/10 kB | 0.9/9.8 kBProgress (4): 434 kB | 36/216 kB | 7.7/10 kB | 0.9/9.8 kBProgress (4): 434 kB | 36/216 kB | 8.2/10 kB | 0.9/9.8 kBProgress (4): 434 kB | 36/216 kB | 8.2/10 kB | 2.3/9.8 kBProgress (4): 434 kB | 37/216 kB | 8.2/10 kB | 2.3/9.8 kBProgress (4): 434 kB | 37/216 kB | 9.6/10 kB | 2.3/9.8 kBProgress (4): 434 kB | 37/216 kB | 9.6/10 kB | 3.2/9.8 kBProgress (4): 434 kB | 39/216 kB | 9.6/10 kB | 3.2/9.8 kBProgress (4): 434 kB | 39/216 kB | 10 kB | 3.2/9.8 kB    Progress (4): 434 kB | 40/216 kB | 10 kB | 3.2/9.8 kBProgress (4): 434 kB | 40/216 kB | 10 kB | 4.5/9.8 kBProgress (4): 434 kB | 40/216 kB | 10 kB | 5.9/9.8 kBProgress (4): 434 kB | 41/216 kB | 10 kB | 5.9/9.8 kBProgress (4): 434 kB | 41/216 kB | 10 kB | 7.3/9.8 kBProgress (4): 434 kB | 43/216 kB | 10 kB | 7.3/9.8 kBProgress (4): 434 kB | 43/216 kB | 10 kB | 8.7/9.8 kBProgress (4): 434 kB | 44/216 kB | 10 kB | 8.7/9.8 kBProgress (4): 434 kB | 44/216 kB | 10 kB | 9.8 kB    Progress (4): 434 kB | 46/216 kB | 10 kB | 9.8 kBProgress (4): 434 kB | 47/216 kB | 10 kB | 9.8 kBProgress (5): 434 kB | 47/216 kB | 10 kB | 9.8 kB | 0.9/446 kBProgress (5): 434 kB | 48/216 kB | 10 kB | 9.8 kB | 0.9/446 kBProgress (5): 434 kB | 48/216 kB | 10 kB | 9.8 kB | 2.3/446 kBProgress (5): 434 kB | 50/216 kB | 10 kB | 9.8 kB | 2.3/446 kBProgress (5): 434 kB | 50/216 kB | 10 kB | 9.8 kB | 3.6/446 kBProgress (5): 434 kB | 51/216 kB | 10 kB | 9.8 kB | 3.6/446 kBProgress (5): 434 kB | 51/216 kB | 10 kB | 9.8 kB | 5.0/446 kBProgress (5): 434 kB | 52/216 kB | 10 kB | 9.8 kB | 5.0/446 kBProgress (5): 434 kB | 52/216 kB | 10 kB | 9.8 kB | 6.4/446 kBProgress (5): 434 kB | 54/216 kB | 10 kB | 9.8 kB | 6.4/446 kBProgress (5): 434 kB | 54/216 kB | 10 kB | 9.8 kB | 7.7/446 kBProgress (5): 434 kB | 55/216 kB | 10 kB | 9.8 kB | 7.7/446 kBProgress (5): 434 kB | 55/216 kB | 10 kB | 9.8 kB | 9.1/446 kBProgress (5): 434 kB | 55/216 kB | 10 kB | 9.8 kB | 10/446 kB Progress (5): 434 kB | 59/216 kB | 10 kB | 9.8 kB | 10/446 kBProgress (5): 434 kB | 59/216 kB | 10 kB | 9.8 kB | 12/446 kBProgress (5): 434 kB | 61/216 kB | 10 kB | 9.8 kB | 12/446 kBProgress (5): 434 kB | 61/216 kB | 10 kB | 9.8 kB | 13/446 kBProgress (5): 434 kB | 61/216 kB | 10 kB | 9.8 kB | 15/446 kBProgress (5): 434 kB | 65/216 kB | 10 kB | 9.8 kB | 15/446 kBProgress (5): 434 kB | 65/216 kB | 10 kB | 9.8 kB | 15/446 kBProgress (5): 434 kB | 65/216 kB | 10 kB | 9.8 kB | 17/446 kBProgress (5): 434 kB | 69/216 kB | 10 kB | 9.8 kB | 17/446 kBProgress (5): 434 kB | 69/216 kB | 10 kB | 9.8 kB | 18/446 kBProgress (5): 434 kB | 73/216 kB | 10 kB | 9.8 kB | 18/446 kBProgress (5): 434 kB | 77/216 kB | 10 kB | 9.8 kB | 18/446 kBProgress (5): 434 kB | 82/216 kB | 10 kB | 9.8 kB | 18/446 kBProgress (5): 434 kB | 82/216 kB | 10 kB | 9.8 kB | 20/446 kBProgress (5): 434 kB | 86/216 kB | 10 kB | 9.8 kB | 20/446 kBProgress (5): 434 kB | 86/216 kB | 10 kB | 9.8 kB | 21/446 kBProgress (5): 434 kB | 86/216 kB | 10 kB | 9.8 kB | 22/446 kBProgress (5): 434 kB | 90/216 kB | 10 kB | 9.8 kB | 22/446 kBProgress (5): 434 kB | 90/216 kB | 10 kB | 9.8 kB | 24/446 kBProgress (5): 434 kB | 94/216 kB | 10 kB | 9.8 kB | 24/446 kBProgress (5): 434 kB | 94/216 kB | 10 kB | 9.8 kB | 25/446 kBProgress (5): 434 kB | 99/216 kB | 10 kB | 9.8 kB | 25/446 kBProgress (5): 434 kB | 99/216 kB | 10 kB | 9.8 kB | 26/446 kBProgress (5): 434 kB | 103/216 kB | 10 kB | 9.8 kB | 26/446 kBProgress (5): 434 kB | 103/216 kB | 10 kB | 9.8 kB | 28/446 kBProgress (5): 434 kB | 107/216 kB | 10 kB | 9.8 kB | 28/446 kBProgress (5): 434 kB | 107/216 kB | 10 kB | 9.8 kB | 29/446 kBProgress (5): 434 kB | 111/216 kB | 10 kB | 9.8 kB | 29/446 kBProgress (5): 434 kB | 111/216 kB | 10 kB | 9.8 kB | 31/446 kBProgress (5): 434 kB | 111/216 kB | 10 kB | 9.8 kB | 32/446 kBProgress (5): 434 kB | 115/216 kB | 10 kB | 9.8 kB | 32/446 kBProgress (5): 434 kB | 119/216 kB | 10 kB | 9.8 kB | 32/446 kBProgress (5): 434 kB | 119/216 kB | 10 kB | 9.8 kB | 33/446 kBProgress (5): 434 kB | 123/216 kB | 10 kB | 9.8 kB | 33/446 kBProgress (5): 434 kB | 123/216 kB | 10 kB | 9.8 kB | 35/446 kBProgress (5): 434 kB | 127/216 kB | 10 kB | 9.8 kB | 35/446 kBProgress (5): 434 kB | 127/216 kB | 10 kB | 9.8 kB | 36/446 kBProgress (5): 434 kB | 127/216 kB | 10 kB | 9.8 kB | 37/446 kBProgress (5): 434 kB | 132/216 kB | 10 kB | 9.8 kB | 37/446 kBProgress (5): 434 kB | 132/216 kB | 10 kB | 9.8 kB | 39/446 kBProgress (5): 434 kB | 132/216 kB | 10 kB | 9.8 kB | 40/446 kBProgress (5): 434 kB | 136/216 kB | 10 kB | 9.8 kB | 40/446 kBProgress (5): 434 kB | 136/216 kB | 10 kB | 9.8 kB | 41/446 kBProgress (5): 434 kB | 140/216 kB | 10 kB | 9.8 kB | 41/446 kBProgress (5): 434 kB | 140/216 kB | 10 kB | 9.8 kB | 43/446 kBProgress (5): 434 kB | 140/216 kB | 10 kB | 9.8 kB | 44/446 kBProgress (5): 434 kB | 144/216 kB | 10 kB | 9.8 kB | 44/446 kBProgress (5): 434 kB | 144/216 kB | 10 kB | 9.8 kB | 46/446 kBProgress (5): 434 kB | 147/216 kB | 10 kB | 9.8 kB | 46/446 kBProgress (5): 434 kB | 147/216 kB | 10 kB | 9.8 kB | 47/446 kBProgress (5): 434 kB | 147/216 kB | 10 kB | 9.8 kB | 48/446 kBProgress (5): 434 kB | 147/216 kB | 10 kB | 9.8 kB | 50/446 kBProgress (5): 434 kB | 152/216 kB | 10 kB | 9.8 kB | 50/446 kBProgress (5): 434 kB | 152/216 kB | 10 kB | 9.8 kB | 51/446 kBProgress (5): 434 kB | 156/216 kB | 10 kB | 9.8 kB | 51/446 kBProgress (5): 434 kB | 160/216 kB | 10 kB | 9.8 kB | 51/446 kBProgress (5): 434 kB | 160/216 kB | 10 kB | 9.8 kB | 52/446 kBProgress (5): 434 kB | 164/216 kB | 10 kB | 9.8 kB | 52/446 kBProgress (5): 434 kB | 164/216 kB | 10 kB | 9.8 kB | 54/446 kBProgress (5): 434 kB | 169/216 kB | 10 kB | 9.8 kB | 54/446 kBProgress (5): 434 kB | 169/216 kB | 10 kB | 9.8 kB | 55/446 kBProgress (5): 434 kB | 173/216 kB | 10 kB | 9.8 kB | 55/446 kBProgress (5): 434 kB | 173/216 kB | 10 kB | 9.8 kB | 59/446 kBProgress (5): 434 kB | 177/216 kB | 10 kB | 9.8 kB | 59/446 kBProgress (5): 434 kB | 181/216 kB | 10 kB | 9.8 kB | 59/446 kBProgress (5): 434 kB | 181/216 kB | 10 kB | 9.8 kB | 64/446 kBProgress (5): 434 kB | 181/216 kB | 10 kB | 9.8 kB | 65/446 kBProgress (5): 434 kB | 186/216 kB | 10 kB | 9.8 kB | 65/446 kBProgress (5): 434 kB | 186/216 kB | 10 kB | 9.8 kB | 69/446 kBProgress (5): 434 kB | 190/216 kB | 10 kB | 9.8 kB | 69/446 kBProgress (5): 434 kB | 190/216 kB | 10 kB | 9.8 kB | 73/446 kBProgress (5): 434 kB | 190/216 kB | 10 kB | 9.8 kB | 77/446 kBProgress (5): 434 kB | 194/216 kB | 10 kB | 9.8 kB | 77/446 kBProgress (5): 434 kB | 194/216 kB | 10 kB | 9.8 kB | 82/446 kBProgress (5): 434 kB | 198/216 kB | 10 kB | 9.8 kB | 82/446 kBProgress (5): 434 kB | 202/216 kB | 10 kB | 9.8 kB | 82/446 kBProgress (5): 434 kB | 207/216 kB | 10 kB | 9.8 kB | 82/446 kBProgress (5): 434 kB | 207/216 kB | 10 kB | 9.8 kB | 86/446 kBProgress (5): 434 kB | 211/216 kB | 10 kB | 9.8 kB | 86/446 kBProgress (5): 434 kB | 211/216 kB | 10 kB | 9.8 kB | 90/446 kBProgress (5): 434 kB | 215/216 kB | 10 kB | 9.8 kB | 90/446 kBProgress (5): 434 kB | 215/216 kB | 10 kB | 9.8 kB | 94/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 94/446 kB    Progress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 98/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 103/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 107/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 111/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 115/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 120/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 124/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 128/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 130/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 134/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 139/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 143/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 147/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 151/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 156/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 160/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 164/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 168/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 172/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 177/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 181/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 185/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 189/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 194/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 198/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 202/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 206/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 211/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 215/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 219/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 235/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 252/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 261/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 278/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 294/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 310/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 327/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 343/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 360/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 376/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 392/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 409/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 425/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 441/446 kBProgress (5): 434 kB | 216 kB | 10 kB | 9.8 kB | 446 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M3/org.eclipse.sisu.inject-0.9.0.M3.jar (434 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.9.0.M3/org.eclipse.sisu.plexus-0.9.0.M3.jar (216 kB at 500 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar
+Progress (4): 10 kB | 9.8 kB | 446 kB | 7.7/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 7.7/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 24/328 kB Progress (4): 10 kB | 9.8 kB | 446 kB | 40/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 57/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 73/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 90/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 106/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 122/328 kBProgress (4): 10 kB | 9.8 kB | 446 kB | 139/328 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar (446 kB at 961 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar
+Progress (3): 10 kB | 9.8 kB | 155/328 kBProgress (3): 10 kB | 9.8 kB | 159/328 kBProgress (4): 10 kB | 9.8 kB | 159/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 159/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 175/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 188/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 204/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 221/328 kB | 7.7/645 kBProgress (4): 10 kB | 9.8 kB | 221/328 kB | 24/645 kB Progress (4): 10 kB | 9.8 kB | 237/328 kB | 24/645 kBProgress (4): 10 kB | 9.8 kB | 237/328 kB | 40/645 kBProgress (4): 10 kB | 9.8 kB | 253/328 kB | 40/645 kBProgress (4): 10 kB | 9.8 kB | 270/328 kB | 40/645 kBProgress (4): 10 kB | 9.8 kB | 270/328 kB | 57/645 kBProgress (4): 10 kB | 9.8 kB | 286/328 kB | 57/645 kBProgress (4): 10 kB | 9.8 kB | 302/328 kB | 57/645 kBProgress (4): 10 kB | 9.8 kB | 319/328 kB | 57/645 kBProgress (4): 10 kB | 9.8 kB | 328 kB | 57/645 kB    Progress (4): 10 kB | 9.8 kB | 328 kB | 73/645 kBProgress (4): 10 kB | 9.8 kB | 328 kB | 90/645 kBProgress (4): 10 kB | 9.8 kB | 328 kB | 106/645 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 106/645 kB | 0.9/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 122/645 kB | 0.9/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 122/645 kB | 2.3/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 122/645 kB | 3.6/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 122/645 kB | 5.0/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 122/645 kB | 6.4/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 139/645 kB | 6.4/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 139/645 kB | 7.7/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 139/645 kB | 9.1/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 139/645 kB | 10/30 kB Progress (5): 10 kB | 9.8 kB | 328 kB | 139/645 kB | 12/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 12/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 13/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 15/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 16/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 17/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 155/645 kB | 19/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 172/645 kB | 19/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 172/645 kB | 20/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 188/645 kB | 20/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 188/645 kB | 21/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 188/645 kB | 23/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 188/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 204/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 221/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 237/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 253/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 270/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 286/645 kB | 24/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 286/645 kB | 26/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 286/645 kB | 27/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 303/645 kB | 27/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 303/645 kB | 28/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 303/645 kB | 30/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 319/645 kB | 30/30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 319/645 kB | 30 kB   Progress (5): 10 kB | 9.8 kB | 328 kB | 335/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 352/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 368/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 385/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 401/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 417/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 434/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 450/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 466/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 483/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 499/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 516/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 532/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 548/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 565/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 581/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 598/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 614/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 630/645 kB | 30 kBProgress (5): 10 kB | 9.8 kB | 328 kB | 645 kB | 30 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar (328 kB at 544 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/4.0.0/maven-reporting-api-4.0.0.jar (9.8 kB at 16 kB/s)
+Progress (4): 10 kB | 645 kB | 30 kB | 7.2 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.3/plexus-interactivity-api-1.3.jar (10 kB at 15 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.20/xstream-1.4.20.jar (645 kB at 908 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar (7.2 kB at 8.8 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar (30 kB at 31 kB/s)
+[INFO] Effective-POM written to: c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex\effective-pom-4177483e-c684-403e-b473-995b4b568dea.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.565 s
+[INFO] Finished at: 2026-09-23T16:10:03-05:00
+[INFO] ------------------------------------------------------------------------
+2026-09-23T21:10:03.680Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-09-23T21:10:03.706Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-09-23T21:10:03.709Z [INFO] [MavenBuildTool] Cleaning c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex using Maven
+2026-09-23T21:10:03.715Z [INFO] [Environment] Running command (Java undefined): mvn clean -q -B -fn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex\target\classes\com\mycomplex\pocpush\config -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-09-23T21:10:11.872Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex from pom.xml
+2026-09-23T21:10:11.874Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex
+2026-09-23T21:10:11.876Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex\pom.xml
+2026-09-23T21:10:11.878Z [INFO] [Tool.invoke]({result: {
+  "message": "Build failed with 1 errors using command: `mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true`.\n- === Config File error     The below errors can be due to missing dependencies. You may have to refer     to the config files provided earlier to solve it.     'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion\\_My\\_Complex\\PoC\\poc-009-firebase-push-mycomplex\\target\\classes\\com\\mycomplex\\pocpush\\config \n  ```\n  Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion\\_My\\_Complex\\PoC\\poc-009-firebase-push-mycomplex\\target\\classes\\com\\mycomplex\\pocpush\\config\n  ```",
+  "result": {
+    "numOfJavaFiles": 6,
+    "numOfClassFiles": 5,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 6,
+        "numOfClassFiles": 5
+      }
+    },
+    "errors": [
+      {
+        "errorMessage": "\n    === Config File error\n    The below errors can be due to missing dependencies. You may have to refer\n    to the config files provided earlier to solve it.\n    'errorMessage': Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex\\target\\classes\\com\\mycomplex\\pocpush\\config\n",
+        "raw": "Failed to execute goal org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean (default-clean) on project poc-firebase-push: Failed to clean project: Failed to delete C:\\Users\\lucua\\OneDrive\\Desktop\\Documentacion_My_Complex\\PoC\\poc-009-firebase-push-mycomplex\\target\\classes\\com\\mycomplex\\pocpush\\config"
+      }
+    ],
+    "command": "mvn clean test-compile -q -B -fn -Dossindex.skip=true -Dlicense.skip=true -Dcheckstyle.skip=true -DskipLicenseCheck=true -DskipCheckStyle=true -Dpmd.skip=true -Denforcer.skip=true -Drat.skip=true"
+  },
+  "telemetry": {
+    "result": "failed"
+  }
+}}).
+2026-09-23T21:10:11.879Z [INFO] ----------------------invoked appmod-build-java-project----------------------
+2026-09-23T21:10:11.882Z [INFO] [MavenBuildTool] Java version found in c:\Users\lucua\OneDrive\Desktop\Documentacion_My_Complex\PoC\poc-009-firebase-push-mycomplex\pom.xml: 21
