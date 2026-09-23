@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoC-009 Firebase Push - MyComplex</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 850px; margin: 40px auto; padding: 0 20px; }
+    button { padding: 10px 16px; cursor: pointer; }
+    textarea { width: 100%; min-height: 140px; }
+    pre { background: #f4f4f4; padding: 12px; overflow: auto; }
+    .ok { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <h1>PoC ADR-009 — Firebase Cloud Messaging</h1>
+  <p>
+    Esta página solicita permiso de notificaciones y obtiene el token FCM del navegador.
+  </p>
+
+  <button id="enableNotifications">1. Habilitar notificaciones y obtener token</button>
+
+  <h2>Token FCM</h2>
+  <textarea id="token" readonly placeholder="Aquí aparecerá el token..."></textarea>
+
+  <h2>Estado</h2>
+  <pre id="status">Esperando...</pre>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
