@@ -1,0 +1,9 @@
+target/
+.idea/
+.vscode/
+*.iml
+.env
+.DS_Store
+
+# Nunca guardar claves Resend
+*resend-key*

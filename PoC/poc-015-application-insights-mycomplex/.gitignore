@@ -1,0 +1,9 @@
+target/
+.idea/
+.vscode/
+*.iml
+.env
+.DS_Store
+
+# Java agent descargado localmente
+applicationinsights-agent*.jar
