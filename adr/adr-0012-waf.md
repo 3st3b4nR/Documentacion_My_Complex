@@ -20,7 +20,7 @@ MyComplex estará disponible en Internet y recibirá solicitudes legítimas, per
 
 ## Opciones consideradas
 
-* Cloudflare WAF en su plan gratuito, con posibilidad de escalar posteriormente a un plan de pago.
+* Cloudflare WAF
 * Azure Front Door Premium con Web Application Firewall (WAF).
 * WAF administrado por el equipo con Nginx y ModSecurity.
 
