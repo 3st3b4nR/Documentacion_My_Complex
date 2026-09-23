@@ -111,17 +111,17 @@ La siguiente matriz presenta el orden de prioridad de los atributos de calidad. 
 
 ## Mapa de empatía
 Se realizó una valoración de los atributos de calidad más importantes para cada actor del software.
-| Atributo de calidad | Vigilante | Administrador de copropiedad | Residente | Trabajador | Propietario | Total | Ponderado global |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Usabilidad - UX | 8 | 8 | 7 | 8 | 8 | 39 | 21.67% |
-| Seguridad | 4 | 4 | 3 | 3 | 5 | 19 | 10.56% |
-| Disponibilidad | 7 | 5 | 6 | 5 | 6 | 29 | 16.11% |
-| Escalabilidad | 2 | 3 | 2 | 2 | 2 | 11 | 6.11% |
-| Confiabilidad | 6 | 7 | 5 | 4 | 3 | 25 | 13.89% |
-| Rendimiento | 5 | 6 | 8 | 7 | 7 | 33 | 18.33% |
-| Accesibilidad | 3 | 2 | 4 | 6 | 4 | 19 | 10.56% |
-| Costo | 1 | 1 | 1 | 1 | 1 | 5 | 2.78% |
-| **Total** | **36** | **36** | **36** | **36** | **36** | **180** | **100.00%** |
+| **Atributos de calidad** | Vigilante | Administrador copropiedad | Residente | Trabajador | Admin Sistema | Propietario | Total | Ponderado Global |
+| ------------------------ | --------- | ------------------------- | --------- | ---------- | ------------- | ----------- | ----- | ---------------- |
+| Usabilidad - UX          | 8         | 8                         | 7         | 8          | 2             | 8           | 41    | 18,98%           |
+| Seguridad                | 4         | 4                         | 3         | 3          | 7             | 5           | 26    | 12,04%           |
+| Disponibilidad           | 7         | 5                         | 6         | 5          | 6             | 6           | 35    | 16,20%           |
+| Escalabilidad            | 2         | 3                         | 2         | 2          | 8             | 2           | 19    | 8,80%            |
+| Confiabilidad            | 6         | 7                         | 5         | 4          | 5             | 3           | 30    | 13,89%           |
+| Rendimiento              | 5         | 6                         | 8         | 7          | 4             | 7           | 37    | 17,13%           |
+| Accesibilidad            | 3         | 2                         | 4         | 6          | 3             | 4           | 22    | 10,19%           |
+| Costo                    | 1         | 1                         | 1         | 1          | 1             | 1           | 6     | 2,78%            |
+|                          | 36        | 36                        | 36        | 36         | 36            | 36          | 216   | 100,00%          |
 
 ![Mapa de empatía](./Mapa_de_empatia.png)
 
