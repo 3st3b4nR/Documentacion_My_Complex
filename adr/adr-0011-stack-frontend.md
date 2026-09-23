@@ -20,16 +20,24 @@ MyComplex requiere una interfaz web responsiva para gestionar visitantes, reserv
 * **Rendimiento:** carga diferida, consultas paginadas y compilación optimizada para los objetivos de búsquedas, login y reservas (escenarios 12, 22 y 23).
 * **Integraciones:** recibir notificaciones mediante FCM sin interferir con la PWA; el envío de push y correo y las credenciales administrativas pertenecen al backend (ADR-0009 y ADR-0010).
 * **Viabilidad:** reducir decisiones de integración y evaluar aprendizaje, mantenimiento y operación, considerando equipo, tiempo, presupuesto y validación antes del despliegue. No se ha documentado experiencia del equipo con los frameworks candidatos.
+* **Tipado y prevención de errores:** detectar durante la compilación inconsistencias en DTO, formularios, roles y estados de sincronización offline, antes de que lleguen al navegador. Esto es relevante porque el frontend debe coordinar datos de IndexedDB con los contratos JSON del backend.
 
 ## Opciones consideradas
 
 * Angular + TypeScript + Angular CLI + Angular Material/CDK.
+* Angular + JavaScript + Angular CLI + Angular Material/CDK.
 * React + TypeScript + Vite + Material UI, con React Router, React Hook Form y TanStack Query.
 * Vue + TypeScript + Vite + Vuetify, con Vue Router y Pinia.
 
 ## Resultado de la decisión
 
-Opción elegida: **"Angular + TypeScript + Angular CLI + Angular Material/CDK"**, porque reúne navegación, formularios, acceso HTTP e inyección de dependencias bajo convenciones comunes. Esto reduce decisiones de integración para un equipo pequeño y facilita mantener consistencia entre portería, reservas y administración. La arquitectura del backend es compatible con las tres opciones; se elige Angular por su conjunto integrado de herramientas, sin asumir superioridad de rendimiento o experiencia previa del equipo.
+Opción elegida: **"Angular + TypeScript + Angular CLI + Angular Material/CDK"**, porque reúne navegación, formularios, acceso HTTP e inyección de dependencias bajo convenciones comunes. Esto reduce decisiones de integración para un equipo pequeño y facilita mantener consistencia entre portería, reservas y administración. La arquitectura del backend es compatible con las alternativas consideradas; se elige Angular por su conjunto integrado de herramientas, sin asumir superioridad de rendimiento o experiencia previa del equipo.
+
+**¿Por qué TypeScript y no JavaScript?**
+
+Se selecciona **TypeScript en lugar de JavaScript** porque añade comprobación estática de tipos antes de ejecutar la aplicación. Esto permite definir de forma explícita los DTO intercambiados con Spring Boot, los modelos almacenados en IndexedDB y estados como pendiente, sincronizando, confirmado o error. También permite que Angular compruebe tipos en formularios, bindings y templates, facilitando el autocompletado y las refactorizaciones. JavaScript es técnicamente viable y TypeScript finalmente se compila a JavaScript para ejecutarse en el navegador, pero con JavaScript puro una mayor cantidad de incompatibilidades se detectaría solamente durante la ejecución.
+
+El tipado no elimina la necesidad de validar las respuestas JSON en tiempo de ejecución ni genera modelos compartidos automáticamente con Java. Los contratos REST, formatos de fecha, valores de enumeraciones y reglas de nulabilidad deberán acordarse y probarse en ambos lados. La semejanza de TypeScript con lenguajes tipados puede facilitar el trabajo con Java, pero ambos poseen sistemas de tipos diferentes.
 
 El stack incluirá **Angular Router** para navegación y carga diferida, **Reactive Forms** para formularios, **HttpClient** para consumir la API REST/JSON sobre HTTPS, y **Signals/RxJS** para estado y flujos asíncronos. Material/CDK y CSS responsivo darán una base común de controles y mensajes. El código se organizará por funcionalidades, con adaptadores para API, identidad y almacenamiento.
 
@@ -63,6 +71,16 @@ Framework con herramientas integradas para navegación, formularios, HTTP e inye
 * Malo, porque requiere aprender varias abstracciones y mantener compatibilidad entre versiones.
 * Malo, porque la operación offline avanzada requiere implementación adicional; Angular no garantiza sincronización ni fronteras de negocio.
 
+### Angular + JavaScript + Angular CLI + Angular Material/CDK
+
+Alternativa que utiliza el mismo framework y las mismas API del navegador, pero desarrolla la lógica de la aplicación sin tipos estáticos explícitos.
+
+* Bien, porque puede utilizar Angular, IndexedDB y la API REST sin incompatibilidad técnica.
+* Bien, porque evita que el equipo tenga que aprender inicialmente las características adicionales del sistema de tipos de TypeScript.
+* Malo, porque reduce la detección anticipada de errores en DTO, formularios, bindings y estados de sincronización.
+* Malo, porque dificulta refactorizar de manera segura una aplicación con varios roles, módulos y contratos con el backend.
+* Malo, porque se aparta del flujo principal de herramientas de Angular, cuyo CLI genera configuración TypeScript y habilita comprobaciones estrictas para mejorar la mantenibilidad.
+
 ### React + TypeScript + Vite + Material UI
 
 Biblioteca de interfaz complementada con herramientas de navegación, formularios y datos remotos.
@@ -90,4 +108,5 @@ Framework de componentes con Vue Router y Pinia para navegación y estado compar
 * Condicionan integraciones: [ADR-0009: push](adr-0009.md) y [ADR-0010: correo](adr-0010.md).
 * Contexto y validación pendiente: [modelo de contexto con API](../Modelo_de_contexto2.drawio) y [correcciones pendientes](../CORRECCIONES%20PENDIENTES.MD). Los ADR relacionados siguen en estado propuesto.
 * Fundamentación del framework: [Angular](https://angular.dev/overview), [composición de React](https://react.dev/learn/build-a-react-app-from-scratch) y [herramientas de Vue](https://vuejs.org/guide/scaling-up/tooling.html).
+* Fundamentación de TypeScript: [Angular CLI en modo estricto](https://angular.dev/cli/new), [comprobación de tipos en templates](https://angular.dev/tools/cli/template-typecheck), [formularios reactivos tipados](https://angular.dev/guide/forms/typed-forms) y [TypeScript como comprobador estático](https://www.typescriptlang.org/docs/handbook/intro).
 * Fundamentación de PWA y push: [limitaciones del worker de Angular](https://angular.dev/ecosystem/service-workers), [Workbox](https://developer.chrome.com/docs/workbox/modules/workbox-build), [idb](https://github.com/jakearchibald/idb) y [FCM web](https://firebase.google.com/docs/cloud-messaging/web/receive-messages).
