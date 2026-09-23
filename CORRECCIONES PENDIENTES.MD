@@ -9,6 +9,6 @@
 [ ] Generar ADR para CI/CD (Estrategias de ramificación, versionado y pruebas unitaras)
 
 [] terminar diagrama draw
- [] agregar HU de imagenes en el portal de noticias
+[] agregar HU de imagenes en el portal de noticias
 
  [ ] Revisar el ADR 11
