@@ -8,7 +8,7 @@ Historia técnica: seleccionar el stack del frontend considerando los drivers ar
 
 ## Contexto y planteamiento del problema
 
-MyComplex requiere una interfaz web responsiva para gestionar visitantes, reservas, noticias, tareas y comunicaciones de sus cinco perfiles de usuario. Debe consumir la API Java/Spring Boot de ADR-0008, complementar el monolito modular con arquitectura hexagonal de ADR-0003 y soportar la PWA con operación offline de portería definida en ADR-0002. ¿Qué stack satisface estas necesidades y facilita entregas incrementales con un equipo reducido?
+MyComplex requiere una interfaz web responsiva para gestionar visitantes, reservas, noticias, tareas y comunicaciones de sus seis perfiles de usuario. Debe consumir la API Java/Spring Boot de ADR-0008, complementar el monolito modular con arquitectura hexagonal de ADR-0003 y soportar la PWA con operación offline de portería definida en ADR-0002. ¿Qué stack satisface estas necesidades y facilita entregas incrementales con un equipo reducido?
 
 ## Impulsores de decisión
 

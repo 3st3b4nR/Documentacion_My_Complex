@@ -6,7 +6,7 @@
 
 ## Contexto y planteamiento del problema
 
-Una vez que el usuario ha sido autenticado por el proveedor externo (ADR 06), MyComplex debe determinar qué acciones tiene permitidas. El sistema cuenta con roles específicos (administrador, residente, vigilante, propietario, trabajador) y opera bajo un modelo donde un usuario de un conjunto residencial no debe acceder a la información de otro conjunto. ¿Dónde y cómo debe MyComplex gestionar estas reglas de acceso?
+Una vez que el usuario ha sido autenticado por el proveedor externo (ADR 06), MyComplex debe determinar qué acciones tiene permitidas. El sistema cuenta con roles específicos (administrador copropiedad y del sistema, residente, vigilante, propietario, trabajador) y opera bajo un modelo donde un usuario de un conjunto residencial no debe acceder a la información de otro conjunto. ¿Dónde y cómo debe MyComplex gestionar estas reglas de acceso?
 
 ## Impulsores de decisión
 

@@ -32,7 +32,7 @@ Por lo anterior, se pueden generar riesgos de seguridad,falta de transparencia e
 - Control digital de visitantes
 - Notificaciones push (comunicación continua entre los miembros de la comunidad)
 - Reservas de zonas comunes
-- JWT y roles de usuario (administrador, residente, vigilante, propietario, trabajador)
+- JWT y roles de usuario (administrador (sistema y copropiedad), residente, vigilante, propietario, trabajador)
 - Dashboard de tareas para trabajadores
 - Publicación de noticias de interés para la comunidad
 - Creación de reuniones (Software externo)
