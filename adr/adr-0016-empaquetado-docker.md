@@ -14,6 +14,8 @@ El backend de MyComplex debe poder ejecutarse de la misma forma en desarrollo, p
 * Simplificar la publicación de nuevas versiones.
 * Reducir problemas causados por diferencias de configuración entre equipos.
 * Utilizar una solución ampliamente soportada por plataformas de nube.
+* Evitar costos de licenciamiento en la etapa académica y de desarrollo.
+* Facilitar la construcción de imágenes reproducibles que puedan ejecutarse posteriormente en diferentes proveedores o plataformas de contenedores.
 
 ## Opciones consideradas
 
@@ -31,6 +33,7 @@ Opción elegida: **"Docker"**, porque permite empaquetar el backend de Spring Bo
 * Se facilita crear, probar y publicar nuevas versiones.
 * Existe una amplia cantidad de herramientas y documentación disponibles.
 * Se integra directamente con plataformas de administración de contenedores y registros de imágenes.
+* Docker puede utilizarse sin costo para el contexto académico actual de MyComplex, de acuerdo con las condiciones vigentes de Docker Personal.
 
 ### Consecuencias negativas
 

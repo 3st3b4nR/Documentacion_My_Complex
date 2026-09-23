@@ -14,6 +14,8 @@ MyComplex deberá poder utilizarse en español e inglés. Se necesita una forma 
 * Mantener los textos de cada idioma organizados y fáciles de modificar.
 * Evitar duplicar código por cada idioma.
 * Mantener una solución sencilla y de bajo costo para los dos idiomas definidos actualmente.
+* Evitar dependencia de servicios externos para mostrar los textos de la interfaz.
+* No generar costos adicionales por internacionalización durante la etapa inicial.
 
 ## Opciones consideradas
 
@@ -31,6 +33,7 @@ Opción elegida: **"Archivos de mensajes dentro del frontend y backend"**, porqu
 * Se evita repetir mensajes directamente en diferentes partes del código.
 * No se necesita pagar ni mantener un servicio externo de traducción.
 * En el futuro se pueden agregar nuevos idiomas siguiendo la misma estructura.
+* La aplicación puede seguir mostrando los textos correctamente aunque no exista conexión con un servicio externo de traducciones.
 
 ### Consecuencias negativas
 

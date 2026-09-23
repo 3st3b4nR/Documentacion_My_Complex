@@ -14,6 +14,7 @@ MyComplex necesitará usar contraseñas, claves de servicios y otras credenciale
 * Controlar qué servicios pueden consultar cada secreto.
 * Facilitar el cambio de credenciales cuando sea necesario.
 * Utilizar una solución administrada que reduzca el trabajo del equipo.
+* Mantener un costo inicial reducido mediante la cuota gratuita disponible para nuevos clientes elegibles de Azure.
 
 ## Opciones consideradas
 
@@ -31,6 +32,7 @@ Opción elegida: **"Azure Key Vault"**, porque permite guardar de forma centrali
 * Se puede controlar qué servicio tiene acceso a cada secreto.
 * Se facilita cambiar o revocar credenciales sin modificar el código fuente.
 * Se mantiene un registro más claro de los accesos a información sensible.
+* El nivel Standard dispone de una cobertura gratuita inicial de operaciones suficiente para la etapa académica y de validación de MyComplex; posteriormente el costo depende del número de operaciones realizadas.
 
 ### Consecuencias negativas
 

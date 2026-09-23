@@ -14,6 +14,7 @@ Después de empaquetar el backend en un contenedor, MyComplex necesita una plata
 * Permitir aumentar la capacidad de la aplicación cuando crezca el número de usuarios.
 * Reducir el trabajo de administración de servidores.
 * Mantener una solución adecuada para un monolito modular y un equipo pequeño.
+* Permitir comenzar con un costo reducido mediante un modelo de consumo y escalado a cero.
 
 ## Opciones consideradas
 
@@ -31,6 +32,7 @@ Opción elegida: **"Azure Container Apps"**, porque permite ejecutar contenedore
 * La aplicación puede aumentar o reducir sus instancias según la demanda.
 * Se simplifican las actualizaciones y nuevas versiones del backend.
 * Se integra con el registro de contenedores, monitoreo e identidad de Azure.
+* El plan de consumo ofrece una asignación gratuita mensual y permite escalar a cero cuando no existen solicitudes, favoreciendo la etapa académica y de bajo tráfico de MyComplex.
 
 ### Consecuencias negativas
 
