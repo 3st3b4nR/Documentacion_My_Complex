@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BG_nKTztmLOK8h9ygcO8">
-    <mxGraphModel dx="2020" dy="2230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2828" dy="2655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,8 +8,8 @@
           <mxGeometry height="120" width="310" x="1250" y="-704" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="My_Complex" c4Type="SystemScopeBoundary" c4Application="SaaS" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="bl3q00QVraFcT7rO3gyN-15">
-          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="1170" width="1270" x="470" y="470" as="geometry" />
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#d0cee2;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=0;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=#56517e;movable=0;resizable=0;deletable=0;locked=1;" vertex="1">
+            <mxGeometry height="1170" width="1270" x="451" y="470" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="My_Complex" c4Type="Container" c4Technology="HTML" c4Description="Corresponde al frontend de la aplicación de My_Complex" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bl3q00QVraFcT7rO3gyN-16">
@@ -67,11 +67,6 @@
               <mxPoint x="810.11" y="630.03" />
             </Array>
             <mxPoint x="1090" y="690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gx1qvrmkE40ZlWJXdah--2" connectable="0" parent="bl3q00QVraFcT7rO3gyN-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Genera peticiones&lt;div&gt;por medio de una&lt;/div&gt;&lt;div&gt;API REST con&amp;nbsp;&lt;/div&gt;&lt;div&gt;protocolo JSON&amp;nbsp;&lt;/div&gt;&lt;div&gt;HTTPS&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="0.0974" y="3" as="geometry">
-            <mxPoint x="-8" y="83" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="RELATIONAL DATABASE" c4Type="Container" c4Technology="PostgreSQL" c4Description="Almacena y gestiona la información relacionada con los usuarios, pagos, reservas,visitantes, accesos" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bl3q00QVraFcT7rO3gyN-46">
@@ -464,6 +459,9 @@
             <mxGeometry height="140" width="550" x="2407.88" y="1070" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="9jErTDI7saYFdKYe1QFd-116" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Genera peticiones&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;por medio de una&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;API REST con&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;protocolo JSON&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;HTTPS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="117" x="677" y="770" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

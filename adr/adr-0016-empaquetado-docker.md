@@ -49,7 +49,7 @@ Herramienta ampliamente utilizada para empaquetar y ejecutar aplicaciones en con
 
 * Bien, porque cuenta con amplia documentación y soporte en plataformas cloud.
 * Bien, porque facilita repetir el mismo entorno en desarrollo, pruebas y producción.
-* Bien, porque se integra con GitHub Actions y Azure Container Apps.
+* Es ampliamente compatible con herramientas de integración continua, registros y plataformas de ejecución de contenedores.
 * Malo, porque requiere aprender a construir y mantener correctamente las imágenes.
 
 ### Podman
