@@ -75,6 +75,8 @@ La base de datos se ejecuta en un contenedor y el equipo se responsabiliza por c
 
 ## Enlaces
 
+
+* Validación principal: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
 * Refina el ADR 01, que seleccionó PostgreSQL como gestor de base de datos.
 * Reemplaza la necesidad de mantener un ADR independiente para respaldo y recuperación.
 * Relacionado con el ADR 25 sobre protección del acceso a los servicios internos.

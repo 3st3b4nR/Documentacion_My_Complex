@@ -94,6 +94,8 @@ Sistema que asigna números consecutivos a cada publicación.
 
 ## Enlaces
 
+
+* Validación relacionada: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR de estrategia de ramificación.
 * Relacionado con el ADR de integración y entrega continua.
 * Relacionado con el ADR de registro de imágenes de contenedor.

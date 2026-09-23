@@ -71,6 +71,9 @@ Consiste en instalar Java y ejecutar el archivo de Spring Boot directamente en u
 
 ## Enlaces
 
+
+* Validación relacionada: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
+* Validación relacionada: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR 08 de Java y Spring Boot.
 * Relacionado con el ADR 17 de administración de contenedores.
 * Relacionado con el ADR 20 de almacenamiento de imágenes de contenedor.

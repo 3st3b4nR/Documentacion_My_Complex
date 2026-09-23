@@ -70,6 +70,9 @@ Registro público y privado ampliamente utilizado para imágenes Docker.
 
 ## Enlaces
 
+
+* Validación principal: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
+* Validación relacionada: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR 16 de Docker.
 * Relacionado con el ADR 17 de Azure Container Apps.
 * Relacionado con el ADR 23 de automatización de pruebas y despliegues.

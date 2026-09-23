@@ -70,6 +70,8 @@ Cada aplicación utiliza claves o contraseñas guardadas y distribuidas manualme
 
 ## Enlaces
 
+
+* Validación principal: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
 * Relacionado con el ADR 19 de protección de secretos y credenciales.
 * Relacionado con el ADR 20 de Container Registry.
 * Relacionado con el ADR 13 de almacenamiento de imágenes.

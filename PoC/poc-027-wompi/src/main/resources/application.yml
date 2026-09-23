@@ -1,0 +1,3 @@
+wompi:
+  event-secret: ${WOMPI_EVENT_SECRET}
+

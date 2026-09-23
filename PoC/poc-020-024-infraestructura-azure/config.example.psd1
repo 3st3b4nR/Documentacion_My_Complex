@@ -1,0 +1,17 @@
+@{
+    SubscriptionId    = '<subscription-id>'
+    Location          = 'eastus2'
+    ResourceGroup     = 'rg-mycomplex-poc'
+    RegistryName      = '<acr-name-unico>'
+    EnvironmentName   = 'cae-mycomplex-poc'
+    IdentityName      = 'id-mycomplex-poc'
+    ContainerAppName  = 'ca-mycomplex-poc'
+    ImageName         = 'mycomplex-api'
+    ImageTag          = '0.1.0-poc'
+    KeyVaultName      = '<key-vault-name-unico>'
+    StorageAccount    = '<storage-name-unico>'
+    BlobContainer     = 'noticias'
+    PostgresServer    = '<postgres-name-unico>'
+    PostgresDatabase  = 'mycomplex_poc'
+    PostgresAdmin     = 'mycomplexadmin'
+}

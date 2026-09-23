@@ -82,5 +82,7 @@ Estrategia en la que los cambios se integran con mucha frecuencia sobre una úni
 
 ## Enlaces
 
+
+* Validación relacionada: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR de integración y entrega continua.
 * Relacionado con el ADR de estrategia de versionado.

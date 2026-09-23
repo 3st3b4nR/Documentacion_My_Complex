@@ -71,6 +71,8 @@ Consiste en ejecutar los contenedores sobre servidores que el equipo debe config
 
 ## Enlaces
 
+
+* Validación relacionada: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
 * Relacionado con el ADR 16 de Docker.
 * Relacionado con el ADR 18 de distribución de solicitudes.
 * Relacionado con el ADR 20 de Container Registry.

@@ -70,6 +70,8 @@ Consiste en guardar directamente los archivos de imagen dentro de la base de dat
 
 ## Enlaces
 
+
+* Validación relacionada: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
 * Relacionado con el ADR 01 de PostgreSQL multi-tenant.
 * Relacionado con el ADR 19 de protección de secretos y credenciales.
 * Requiere una historia de usuario para adjuntar imágenes al publicar o editar noticias.

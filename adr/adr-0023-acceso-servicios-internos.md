@@ -77,6 +77,8 @@ Los servicios permanecen disponibles desde Internet y la protección depende pri
 
 ## Enlaces
 
+
+* Validación principal: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
 * Relacionado con el ADR 21 de PostgreSQL administrado.
 * Relacionado con el ADR 19 de protección de secretos.
 * Relacionado con el ADR 26 de control de acceso entre servicios.

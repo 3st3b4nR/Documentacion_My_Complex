@@ -78,6 +78,8 @@ La interfaz funciona de manera dinámica, mientras el backend mantiene un modelo
 
 ## Enlaces
 
+
+* Criterio de validación: [Catálogo de PoC y spikes para ADR-0020 a ADR-0030](../PoC/readme.md).
 * Relacionado con la estrategia de operación offline para portería.
 * Relacionado con la arquitectura del backend basada en Monolito Modular y Arquitectura Hexagonal.
 * Relacionado con el servicio de notificaciones push mediante Firebase Cloud Messaging.

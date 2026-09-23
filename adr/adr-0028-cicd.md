@@ -83,6 +83,8 @@ Servidor de automatización que puede ser administrado directamente por el equip
 
 ## Enlaces
 
+
+* Validación principal: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR de estrategia de ramificación.
 * Relacionado con el ADR de estrategia de versionado.
 * Relacionado con el ADR de pruebas unitarias.

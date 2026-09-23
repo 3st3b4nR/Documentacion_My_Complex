@@ -83,6 +83,8 @@ El equipo ejecuta las pruebas, construye la imagen y publica cada versión manua
 
 ## Enlaces
 
+
+* Validación principal: [Spike ADR-0022/0028 — CI/CD](../PoC/spike-022-028-cicd/README.md).
 * Relacionado con el ADR 16 de contenedores.
 * Relacionado con el ADR 20 de almacenamiento de imágenes de contenedor.
 * Relacionado con el ADR 17 de administración de contenedores.

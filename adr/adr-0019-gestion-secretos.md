@@ -71,5 +71,8 @@ Consiste en guardar las credenciales directamente en la configuración de cada a
 
 ## Enlaces
 
+
+* Validación relacionada: [PoC ADR-0020/0021/0023/0024 — Infraestructura Azure](../PoC/poc-020-024-infraestructura-azure/README.md).
+* Validación relacionada: [PoC ADR-0027 — Integración Wompi](../PoC/poc-027-wompi/README.md).
 * Relacionado con el ADR 26 de control de acceso entre servicios.
 * Relacionado con los ADR de PostgreSQL, Resend, Firebase y almacenamiento de imágenes.

@@ -96,3 +96,6 @@ Plataforma regional de pagos que permite recibir pagos y ofrece alternativas de 
 * Malo, porque obtener una tarifa menor puede implicar esperar varios días para disponer del dinero.
 * Malo, porque para el alcance colombiano de MyComplex no ofrece una ventaja suficientemente clara frente a Wompi que compense el mayor costo inmediato.
 
+## Enlaces
+
+* Validación principal: [PoC ADR-0027 — Integración Wompi](../PoC/poc-027-wompi/README.md).

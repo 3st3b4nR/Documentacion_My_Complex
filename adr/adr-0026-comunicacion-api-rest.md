@@ -99,6 +99,8 @@ Mantiene una conexión desde el servidor hacia el cliente para enviar actualizac
 
 ## Enlaces
 
+
+* Validación relacionada: [PoC ADR-0027 — Integración Wompi](../PoC/poc-027-wompi/README.md).
 * Relacionado con la arquitectura del backend basada en Monolito Modular y Arquitectura Hexagonal.
 * Relacionado con la decisión de utilizar Java y Spring Boot.
 * Relacionado con la autenticación mediante Auth0.
