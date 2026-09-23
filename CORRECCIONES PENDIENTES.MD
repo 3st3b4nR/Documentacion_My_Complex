@@ -2,7 +2,7 @@
 
 [ ] Agregar rol de Administrador General del sistema y reevaluar los puntos anteriores de la documentación
 
-[ ] Agregar pagos (ADR)
+[ Listo ] Agregar pagos (ADR)
 
 [ ] Revisar el ADR 2 (indexedDB que no genere conflictos con el stack seleccionado)
 
