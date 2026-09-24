@@ -29,8 +29,6 @@ Opción elegida: **"GitHub Flow"**, porque utiliza una rama principal estable y 
 
 El flujo esperado será crear una rama a partir de `main`, realizar el cambio, abrir un Pull Request, revisar y validar el cambio, y finalmente integrarlo nuevamente a `main`.
 
-La estrategia de ramificación no define qué herramienta automatiza las validaciones, cómo se identifican las versiones ni qué framework se utiliza para pruebas. Estas decisiones se documentan en ADR independientes.
-
 ### Consecuencias positivas
 
 * Se mantiene una estructura de ramas sencilla.

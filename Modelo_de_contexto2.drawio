@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BG_nKTztmLOK8h9ygcO8">
-    <mxGraphModel dx="1664" dy="2083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1307" dy="1762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,12 +162,12 @@
         <mxCell id="PoRYjf-MHK5qNBuql2I5-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gestiona los datos de los usuarios, reservas , visitantes y noticias&lt;div&gt;TCP/IP&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="130" x="510" y="1150" as="geometry" />
         </mxCell>
-        <mxCell id="E774I9XEhHXjKe3jMqw4-6" edge="1" parent="1" source="CXn2aAxHgPkHJMmOXYmR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+        <mxCell id="E774I9XEhHXjKe3jMqw4-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2710" y="329.43026548672515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E774I9XEhHXjKe3jMqw4-7" edge="1" parent="1" source="CXn2aAxHgPkHJMmOXYmR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+        <mxCell id="E774I9XEhHXjKe3jMqw4-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2710" y="329.43026548672515" as="targetPoint" />
           </mxGeometry>
@@ -217,7 +217,7 @@
           <mxGeometry height="70" width="95.18" x="1150" y="850" as="geometry" />
         </mxCell>
         <mxCell id="ng-Rwq16n0ax-FUlVmzF-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Contiene las contraseñas y credenciales de forma segura&amp;nbsp;&lt;br&gt;HTTPS" vertex="1">
-          <mxGeometry height="30" width="90" x="1145" y="1230" as="geometry" />
+          <mxGeometry height="30" width="90" x="1107" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="ng-Rwq16n0ax-FUlVmzF-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Autentica" vertex="1">
           <mxGeometry height="30" width="60" x="2300" y="310" as="geometry" />
