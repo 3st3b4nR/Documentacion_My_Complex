@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="BG_nKTztmLOK8h9ygcO8">
-    <mxGraphModel dx="1039" dy="1614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3685" dy="3057" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         </mxCell>
         <object placeholders="1" c4Name="Contenido estático" c4Type="Container" c4Technology="Angular + Typescript&#xa;" c4Description="Contenido visual estático frontend&#xa;" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bl3q00QVraFcT7rO3gyN-33">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="510" y="540" as="geometry" />
+            <mxGeometry height="120" width="240" x="510" y="546" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="CXn2aAxHgPkHJMmOXYmR-48" edge="1" parent="1" source="bl3q00QVraFcT7rO3gyN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=1;dashPattern=8 8;" target="CXn2aAxHgPkHJMmOXYmR-47">
@@ -58,17 +58,6 @@
             <mxGeometry height="120" width="240" x="780" y="870" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="bl3q00QVraFcT7rO3gyN-45" edge="1" parent="1" source="bl3q00QVraFcT7rO3gyN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="bl3q00QVraFcT7rO3gyN-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="740.11" y="880.03" />
-              <mxPoint x="740.11" y="720.03" />
-              <mxPoint x="810.11" y="720.03" />
-              <mxPoint x="810.11" y="630.03" />
-            </Array>
-            <mxPoint x="1090" y="690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <object placeholders="1" c4Name="RELATIONAL DATABASE" c4Type="Container" c4Technology="PostgreSQL" c4Description="Almacena y gestiona la información relacionada con los usuarios, pagos, reservas,visitantes, accesos" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="bl3q00QVraFcT7rO3gyN-46">
           <mxCell parent="1" style="shape=cylinder3;size=15;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
             <mxGeometry height="120" width="240" x="514" y="1390" as="geometry" />
@@ -415,7 +404,7 @@
           </mxCell>
         </object>
         <mxCell id="9jErTDI7saYFdKYe1QFd-116" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Genera peticiones&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;por medio de una&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;API REST con&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;protocolo JSON&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;HTTPS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="117" x="677" y="770" as="geometry" />
+          <mxGeometry height="30" width="117" x="1186" y="591" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Administrador Sistema " c4Type="Person" c4Description="Responsable de administrar la plataforma MyComplex, gestionar los conjuntos residenciales y sus administradores, supervisar el funcionamiento general y configurar parámetros globales del sistema." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="E774I9XEhHXjKe3jMqw4-1">
           <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
@@ -453,6 +442,23 @@
         </mxCell>
         <mxCell id="Q2XpEaIzp1dXAliZwVo1-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Funcionalidades del panel&lt;br&gt;1.dashborad de tareas&lt;div&gt;2.publicacion de noticias&lt;/div&gt;&lt;div&gt;3.gestion de usuarios&lt;/div&gt;&lt;div&gt;4.Generacion de reuniones&lt;/div&gt;&lt;div&gt;5.gestion de permisos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="153" width="281" x="1929" y="-397" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="API Gateway" c4Type="Container: Spring Cloud Gateway" c4Technology="" c4Description="Centraliza y enruta las solicitudes del frontend hacia el backend, aplicando filtros de seguridad y control de tráfico." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="XmAHUqXhkWxhIbCdpFAO-1">
+          <mxCell parent="1" style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
+            <mxGeometry height="160" width="240" x="457" y="710" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="XmAHUqXhkWxhIbCdpFAO-3" edge="1" parent="1" source="bl3q00QVraFcT7rO3gyN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;" target="XmAHUqXhkWxhIbCdpFAO-1">
+          <mxGeometry relative="1" x="0.0039" as="geometry" />
+        </mxCell>
+        <mxCell id="XmAHUqXhkWxhIbCdpFAO-4" edge="1" parent="1" source="XmAHUqXhkWxhIbCdpFAO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;endArrow=block;endFill=1;" target="bl3q00QVraFcT7rO3gyN-43">
+          <mxGeometry relative="1" x="0.0054" as="geometry" />
+        </mxCell>
+        <mxCell id="XmAHUqXhkWxhIbCdpFAO-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Consume las API del sistema mediante HTTPS (REST/JSON)" vertex="1">
+          <mxGeometry height="30" width="126" x="730" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="XmAHUqXhkWxhIbCdpFAO-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Enruta las solicitudes HTTP mediante REST/JSON." vertex="1">
+          <mxGeometry height="30" width="110" x="706" y="801" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
