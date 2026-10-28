@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Codex" compressed="false">
+<mxfile host="app.diagrams.net" agent="Codex" compressed="false" pages="2">
   <diagram id="mycomplex-backend-packages" name="Backend packages">
-    <mxGraphModel dx="1334" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="2250" math="0" shadow="0">
+    <mxGraphModel dx="2764" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="2250" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -356,6 +356,107 @@
         <mxCell id="no-adapter-out" edge="1" parent="1" source="notifications-adapter-out" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=0;dashed=1;strokeColor=#E11D48;fontSize=8;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="notifications-port-out" value="«implements»">
           <mxGeometry relative="1" x="0.35" as="geometry">
             <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-Dsc-aNVYaLE8mUabw3M" name="API-gateway packages">
+    <mxGraphModel dx="2345" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gateway-root" parent="1" style="shape=folder;tabWidth=210;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#F8FAFC;strokeColor=#334155;strokeWidth=2;fontSize=15;verticalAlign=top;spacingTop=8;align=left;spacingLeft=12;" value="&lt;b&gt;com.mycomplex.gateway&lt;/b&gt;" vertex="1">
+          <mxGeometry height="520" width="1310" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-bootstrap" parent="gateway-root" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2;fontSize=13;" value="&lt;b&gt;MycomplexGatewayApplication&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;@SpringBootApplication&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="330" x="490" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="j2ChzV_qNvWOOwUL4gJZ-1" edge="1" parent="gateway-root" source="gateway-filter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="gateway-security">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-filter" parent="gateway-root" style="shape=folder;tabWidth=90;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;fontSize=14;verticalAlign=top;spacingTop=7;align=left;spacingLeft=12;" value="&lt;b&gt;filter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="220" width="500" x="70" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-correlation-filter" parent="gateway-filter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;fontSize=12;" value="&lt;b&gt;CorrelationIdFilter&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Global request correlation filter&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="360" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-security" parent="gateway-root" style="shape=folder;tabWidth=100;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;fontSize=14;verticalAlign=top;spacingTop=7;align=left;spacingLeft=12;" value="&lt;b&gt;security&lt;/b&gt;" vertex="1">
+          <mxGeometry height="220" width="500" x="740" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-security-config" parent="gateway-security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;fontSize=12;" value="&lt;b&gt;GatewaySecurityConfig&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Reactive security configuration&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="360" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-cloud-package" parent="1" style="shape=folder;tabWidth=250;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#F8FAFC;strokeColor=#64748B;strokeWidth=2;fontSize=13;verticalAlign=top;spacingTop=7;align=left;spacingLeft=12;" value="&lt;b&gt;org.springframework.cloud.gateway.filter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="220" width="500" x="170" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-global-filter" parent="spring-cloud-package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;" value="&lt;b&gt;GlobalFilter&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;interface&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="190" x="35" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-gateway-chain" parent="spring-cloud-package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;" value="&lt;b&gt;GatewayFilterChain&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;interface&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="190" x="275" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-core-package" parent="1" style="shape=folder;tabWidth=190;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#F8FAFC;strokeColor=#64748B;strokeWidth=2;fontSize=13;verticalAlign=top;spacingTop=7;align=left;spacingLeft=12;" value="&lt;b&gt;org.springframework.core&lt;/b&gt;" vertex="1">
+          <mxGeometry height="220" width="260" x="720" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-ordered" parent="spring-core-package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;" value="&lt;b&gt;Ordered&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;interface&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="190" x="35" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-security-package" parent="1" style="shape=folder;tabWidth=310;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#F8FAFC;strokeColor=#64748B;strokeWidth=2;fontSize=13;verticalAlign=top;spacingTop=7;align=left;spacingLeft=12;" value="&lt;b&gt;org.springframework.security.config.web.server&lt;/b&gt;" vertex="1">
+          <mxGeometry height="220" width="450" x="1030" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-server-http-security" parent="spring-security-package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;" value="&lt;b&gt;ServerHttpSecurity&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;class&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="180" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="spring-security-chain" parent="spring-security-package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;" value="&lt;b&gt;SecurityWebFilterChain&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;interface&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="180" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-bootstrap-filter" edge="1" parent="1" source="gateway-bootstrap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=0.127;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#2563EB;fontSize=11;entryPerimeter=0;" target="gateway-filter" value="«component scan»">
+          <mxGeometry relative="1" x="-0.1266" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-bootstrap-security" edge="1" parent="1" source="gateway-bootstrap" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=50;entryDy=26;endArrow=open;endFill=0;strokeColor=#2563EB;fontSize=11;entryPerimeter=0;" target="gateway-security" value="«component scan»">
+          <mxGeometry relative="1" x="-0.1783" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-filter-global" edge="1" parent="1" source="gateway-correlation-filter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;strokeColor=#2563EB;fontSize=11;" target="spring-global-filter" value="«implements»">
+          <mxGeometry relative="1" x="-0.129" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="382" y="610" />
+              <mxPoint x="300" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-filter-chain" edge="1" parent="1" source="gateway-correlation-filter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#475569;fontSize=11;" target="spring-gateway-chain" value="«uses»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="600" />
+              <mxPoint x="540" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-filter-ordered" edge="1" parent="1" source="gateway-correlation-filter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;strokeColor=#2563EB;fontSize=11;" target="spring-ordered" value="«implements»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="598" y="600" />
+              <mxPoint x="850" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-security-http" edge="1" parent="1" source="gateway-security-config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#475569;fontSize=11;" target="spring-server-http-security" value="«uses»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1088" y="600" />
+              <mxPoint x="1150" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-security-chain" edge="1" parent="1" source="gateway-security-config" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;strokeColor=#475569;fontSize=11;" target="spring-security-chain" value="«creates @Bean»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1232" y="600" />
+              <mxPoint x="1360" y="600" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
