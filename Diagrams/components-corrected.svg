@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.3487 -40.0 3740.3487 1045.0" width="3740.3487" height="1045.0">
+<rect x="-40.3487" y="-40.0" width="3740.3487" height="1045.0" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="660.0" y1="477.5" x2="665.0" y2="265.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1030.0 477.5 L 1042.5 477.5 L 1042.5 187.5 L 1055.0 187.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1030.0 477.5 L 1120.0 477.5 L 1120.0 352.5 L 1210.0 352.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2105.0" y1="350.0" x2="1210.0" y2="352.5" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2120.0 605.0 L 1688.75 605.0 L 1688.75 105.0 L 1257.5 105.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2120.0 605.0 L 1507.5 605.0 L 1507.5 95.0 L 895.0 95.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="660.0" y1="477.5" x2="1030.0" y2="477.5" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 660.0 477.5 L 1905.0 477.5 L 1905.0 245.0 L 3150.0 245.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1030.0 477.5 L 1567.5 477.5 L 1567.5 350.0 L 2105.0 350.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1490.0 425.0 L 1545.0 425.0 L 1545.0 405.0 L 1600.0 405.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1845.0 465.0 L 1745.0 465.0 L 1745.0 415.0 L 1645.0 415.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 1785.0 350.0 L 1785.0 465.0 L 1465.0 465.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 1975.0 350.0 L 1975.0 465.0 L 1845.0 465.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2105.0" y1="350.0" x2="2110.0" y2="465.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 2242.5 350.0 L 2242.5 465.0 L 2380.0 465.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 1925.0 350.0 L 1925.0 585.0 L 1745.0 585.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 2055.0 350.0 L 2055.0 585.0 L 2005.0 585.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 2187.5 350.0 L 2187.5 585.0 L 2270.0 585.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2105.0 350.0 L 2320.0 350.0 L 2320.0 585.0 L 2535.0 585.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1485.0" y1="585.0" x2="2270.0" y2="585.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2110.0 465.0 L 2190.0 465.0 L 2190.0 585.0 L 2270.0 585.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1745.0" y1="585.0" x2="2270.0" y2="585.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2005.0" y1="585.0" x2="2270.0" y2="585.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1465.0 465.0 L 1480.0 465.0 L 1480.0 732.5 L 1495.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1485.0 585.0 L 1617.5 585.0 L 1617.5 732.5 L 1750.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2270.0 585.0 L 2137.5 585.0 L 2137.5 732.5 L 2005.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2270.0" y1="585.0" x2="2265.0" y2="732.5" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1465.0 465.0 L 2007.5 465.0 L 2007.5 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1845.0 465.0 L 2197.5 465.0 L 2197.5 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2110.0 465.0 L 2330.0 465.0 L 2330.0 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2380.0 465.0 L 2465.0 465.0 L 2465.0 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1485.0 585.0 L 2017.5 585.0 L 2017.5 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1745.0 585.0 L 2147.5 585.0 L 2147.5 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2005.0 585.0 L 2277.5 585.0 L 2277.5 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2270.0 585.0 L 2410.0 585.0 L 2410.0 732.5 L 2550.0 732.5" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2535.0" y1="585.0" x2="2550.0" y2="732.5" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1495.0 732.5 L 2327.5 732.5 L 2327.5 370.0 L 3160.0 370.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 1750.0 732.5 L 2452.5 732.5 L 2452.5 475.0 L 3155.0 475.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2005.0 732.5 L 2582.5 732.5 L 2582.5 590.0 L 3160.0 590.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2265.0 732.5 L 2712.5 732.5 L 2712.5 805.0 L 3160.0 805.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<path d="M 2550.0 732.5 L 2855.0 732.5 L 2855.0 910.0 L 3160.0 910.0" fill="none" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="3160.0" y1="910.0" x2="3550.0" y2="910.0" stroke="#D1D5DB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<rect x="1340.0" y="245.0" width="1560.0" height="720.0" rx="0" fill="#4D4D4D" stroke="#009900" stroke-width="1"/>
+<rect x="395.0" y="50.0" width="100.0" height="50.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="387.0" y="62.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="387.0" y="78.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="445.0" y="75.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&gt;</text>
+<text x="455.0" y="60.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">componentes</text>
+<text x="455.0" y="75.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">propios a</text>
+<text x="455.0" y="89.4" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">construir</text>
+<rect x="395.0" y="120.0" width="100.0" height="50.0" fill="#006600" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="387.0" y="132.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<rect x="387.0" y="148.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<text x="445.0" y="145.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&gt;</text>
+<text x="455.0" y="130.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">framework</text>
+<text x="455.0" y="145.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">base de</text>
+<text x="455.0" y="159.39999999999998" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">desarrollo</text>
+<rect x="395.0" y="190.0" width="100.0" height="50.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="387.0" y="202.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="387.0" y="218.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="445.0" y="215.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&gt;</text>
+<text x="455.0" y="207.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">librerías / SDKs /</text>
+<text x="455.0" y="222.20000000000002" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">tecnologías externas</text>
+<rect x="395.0" y="260.0" width="100.0" height="50.0" fill="#007BFF" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="387.0" y="272.0" width="12" height="8" fill="#007BFF" stroke="#9CA3AF"/>
+<rect x="387.0" y="288.0" width="12" height="8" fill="#007BFF" stroke="#9CA3AF"/>
+<text x="445.0" y="285.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&gt;</text>
+<text x="455.0" y="270.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">plataforma</text>
+<text x="455.0" y="285.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">base de</text>
+<text x="455.0" y="299.40000000000003" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">desarrollo</text>
+<rect x="840.0" y="70.0" width="110.0" height="50.0" fill="#007BFF" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="832.0" y="82.0" width="12" height="8" fill="#007BFF" stroke="#9CA3AF"/>
+<rect x="832.0" y="98.0" width="12" height="8" fill="#007BFF" stroke="#9CA3AF"/>
+<text x="905.0" y="87.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;jre&gt;&gt;</text>
+<text x="905.0" y="102.19999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Java 21</text>
+<rect x="605.0" y="240.0" width="120.0" height="50.0" fill="#006600" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="597.0" y="252.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<rect x="597.0" y="268.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<text x="665.0" y="257.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;framework&gt;&gt;</text>
+<text x="665.0" y="272.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Angular</text>
+<rect x="1195.0" y="80.0" width="125.0" height="50.0" fill="#006600" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1187.0" y="92.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<rect x="1187.0" y="108.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<text x="1257.5" y="97.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;framework&gt;&gt;</text>
+<text x="1257.5" y="112.19999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Spring Boot</text>
+<rect x="960.0" y="160.0" width="190.0" height="55.0" fill="#006600" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="952.0" y="172.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<rect x="952.0" y="188.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<text x="1055.0" y="180.3" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;framework&gt;&gt;</text>
+<text x="1055.0" y="194.70000000000002" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Spring Cloud Gateway</text>
+<rect x="1100.0" y="325.0" width="220.0" height="55.0" fill="#006600" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1092.0" y="337.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<rect x="1092.0" y="353.0" width="12" height="8" fill="#006600" stroke="#9CA3AF"/>
+<text x="1210.0" y="338.1" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;framework&gt;&gt;</text>
+<text x="1210.0" y="352.5" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Spring Security OAuth2</text>
+<text x="1210.0" y="366.90000000000003" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Resource Server</text>
+<rect x="570.0" y="445.0" width="180.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="562.0" y="457.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="562.0" y="473.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="660.0" y="463.1" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;web application&gt;&gt;</text>
+<text x="660.0" y="477.5" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Angular Web App</text>
+<text x="660.0" y="491.90000000000003" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Panel Administrativo</text>
+<rect x="930.0" y="445.0" width="200.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="922.0" y="457.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="922.0" y="473.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1030.0" y="470.3" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;component&gt;&gt;</text>
+<text x="1030.0" y="484.7" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">MyComplex API Gateway</text>
+<text x="2240.0" y="267.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">MyComplex Backend</text>
+<text x="2240.0" y="282.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;Modular Monolith&gt;&gt;</text>
+<rect x="2010.0" y="320.0" width="190.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2002.0" y="332.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2002.0" y="348.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2105.0" y="342.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;security adapter&gt;&gt;</text>
+<text x="2105.0" y="357.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Backend Security</text>
+<rect x="1380.0" y="435.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1372.0" y="447.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1372.0" y="463.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1465.0" y="457.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="1465.0" y="472.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Users Module</text>
+<rect x="1570.0" y="380.0" width="150.0" height="70.0" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+<text x="1645.0" y="408.4" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;interface&gt;&gt;</text>
+<text x="1645.0" y="422.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Properties Input Port</text>
+<rect x="1760.0" y="435.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1752.0" y="447.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1752.0" y="463.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1845.0" y="457.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="1845.0" y="472.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Properties Module</text>
+<rect x="2025.0" y="435.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2017.0" y="447.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2017.0" y="463.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2110.0" y="457.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="2110.0" y="472.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Visitors Module</text>
+<rect x="2290.0" y="435.0" width="180.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2282.0" y="447.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2282.0" y="463.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2380.0" y="457.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="2380.0" y="472.2" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Reservations Module</text>
+<rect x="1400.0" y="555.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1392.0" y="567.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1392.0" y="583.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1485.0" y="577.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="1485.0" y="592.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">News Module</text>
+<rect x="1660.0" y="555.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1652.0" y="567.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1652.0" y="583.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1745.0" y="577.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="1745.0" y="592.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Tasks Module</text>
+<rect x="1920.0" y="555.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1912.0" y="567.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1912.0" y="583.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2005.0" y="577.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="2005.0" y="592.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Meetings Module</text>
+<rect x="2180.0" y="555.0" width="180.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2172.0" y="567.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2172.0" y="583.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2270.0" y="577.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="2270.0" y="592.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Notifications Module</text>
+<rect x="2450.0" y="555.0" width="170.0" height="60.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2442.0" y="567.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2442.0" y="583.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2535.0" y="577.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;module&gt;&gt;</text>
+<text x="2535.0" y="592.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Audit Module</text>
+<rect x="1400.0" y="700.0" width="190.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1392.0" y="712.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1392.0" y="728.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1495.0" y="718.1" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;outbound adapter&gt;&gt;</text>
+<text x="1495.0" y="732.5" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Auth0 Management</text>
+<text x="1495.0" y="746.9" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Adapter</text>
+<rect x="1660.0" y="700.0" width="180.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1652.0" y="712.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1652.0" y="728.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="1750.0" y="718.1" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;outbound adapter&gt;&gt;</text>
+<text x="1750.0" y="732.5" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Blob Storage</text>
+<text x="1750.0" y="746.9" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Adapter</text>
+<rect x="1920.0" y="700.0" width="170.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="1912.0" y="712.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="1912.0" y="728.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2005.0" y="725.3" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;outbound adapter&gt;&gt;</text>
+<text x="2005.0" y="739.6999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">FCM Adapter</text>
+<rect x="2180.0" y="700.0" width="170.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2172.0" y="712.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2172.0" y="728.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2265.0" y="725.3" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;outbound adapter&gt;&gt;</text>
+<text x="2265.0" y="739.6999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Email Adapter</text>
+<rect x="2440.0" y="700.0" width="220.0" height="65.0" fill="#CC00CC" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="2432.0" y="712.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<rect x="2432.0" y="728.0" width="12" height="8" fill="#CC00CC" stroke="#9CA3AF"/>
+<text x="2550.0" y="718.1" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;persistence adapters&gt;&gt;</text>
+<text x="2550.0" y="732.5" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Per-module</text>
+<text x="2550.0" y="746.9" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Persistence Adapters</text>
+<rect x="3030.0" y="210.0" width="240.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3022.0" y="222.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3022.0" y="238.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3150.0" y="237.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3150.0" y="252.20000000000002" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">@auth0/auth0-angular</text>
+<rect x="3040.0" y="335.0" width="240.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3032.0" y="347.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3032.0" y="363.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3160.0" y="355.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3160.0" y="370.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Auth0 Java SDK</text>
+<text x="3160.0" y="384.40000000000003" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">com.auth0:auth0</text>
+<rect x="3020.0" y="440.0" width="270.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3012.0" y="452.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3012.0" y="468.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3155.0" y="460.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3155.0" y="475.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Azure Storage Blob SDK</text>
+<text x="3155.0" y="489.40000000000003" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">com.azure:azure-storage-blob</text>
+<rect x="3025.0" y="555.0" width="270.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3017.0" y="567.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3017.0" y="583.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3160.0" y="575.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3160.0" y="590.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Firebase Admin SDK</text>
+<text x="3160.0" y="604.4" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">com.google.firebase:firebase-admin</text>
+<rect x="3030.0" y="770.0" width="260.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3022.0" y="782.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3022.0" y="798.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3160.0" y="790.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3160.0" y="805.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">Resend Java SDK</text>
+<text x="3160.0" y="819.4" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">com.resend:resend-java</text>
+<rect x="3030.0" y="875.0" width="260.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3022.0" y="887.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3022.0" y="903.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3160.0" y="895.6" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;library&gt;&gt;</text>
+<text x="3160.0" y="910.0" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">PostgreSQL JDBC Driver</text>
+<text x="3160.0" y="924.4" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">org.postgresql:postgresql</text>
+<rect x="3440.0" y="875.0" width="220.0" height="70.0" fill="#999900" stroke="#9CA3AF" stroke-width="1"/>
+<rect x="3432.0" y="887.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<rect x="3432.0" y="903.0" width="12" height="8" fill="#999900" stroke="#9CA3AF"/>
+<text x="3550.0" y="902.8" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;database&gt;&gt;</text>
+<text x="3550.0" y="917.1999999999999" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">PostgreSQL</text>
+<text x="662.5" y="367.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1042.5" y="328.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1120.0" y="411.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1657.5" y="347.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1688.75" y="351.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1507.5" y="346.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="845.0" y="473.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1905.0" y="357.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1567.5" y="409.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1545.0" y="411.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1745.0" y="436.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;provides&gt;&gt;</text>
+<text x="1785.0" y="403.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1975.0" y="403.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2107.5" y="403.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2242.5" y="403.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<rect x="-0.1732" y="0.0" width="0.0" height="0.0" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+<text x="-0.1732" y="0.0" fill="#D1D5DB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1925.0" y="463.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2055.0" y="463.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2187.5" y="463.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2320.0" y="463.5" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1877.5" y="581.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2190.0" y="521.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2007.5" y="581.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2137.5" y="581.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1480.0" y="594.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="1617.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2137.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2267.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2007.5" y="594.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2197.5" y="594.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2330.0" y="594.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2465.0" y="594.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2017.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2147.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2277.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2410.0" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2542.5" y="654.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2327.5" y="547.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2452.5" y="599.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2582.5" y="657.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2712.5" y="764.75" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="2855.0" y="817.25" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+<text x="3355.0" y="906.0" fill="#E5E7EB" font-family="Arial" font-size="10" text-anchor="middle">&lt;&lt;use&gt;&gt;</text>
+</svg>

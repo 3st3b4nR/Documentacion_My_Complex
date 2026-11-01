@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2667.114664554596 1148.7916564941406" width="2667.114664554596" height="1148.7916564941406">
+<rect x="-40.0" y="-40.0" width="2667.114664554596" height="1148.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="407.11466455459595" y1="276.7916564941406" x2="670.864664554596" y2="276.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="670.864664554596" y1="318.7916564941406" x2="934.614664554596" y2="318.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="934.614664554596" y1="360.7916564941406" x2="1198.364664554596" y2="360.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1198.364664554596" y1="402.7916564941406" x2="1462.114664554596" y2="402.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1462.114664554596" y1="444.7916564941406" x2="2253.364664554596" y2="444.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="2253.364664554596" y1="486.7916564941406" x2="2517.114664554596" y2="486.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="2517.114664554596" y1="528.7916564941406" x2="2253.364664554596" y2="528.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2253.364664554596" y1="570.7916564941406" x2="1462.114664554596" y2="570.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1462.114664554596" y1="612.7916564941406" x2="1725.864664554596" y2="612.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1725.864664554596" y1="654.7916564941406" x2="1989.614664554596" y2="654.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1989.614664554596" y1="696.7916564941406" x2="1725.864664554596" y2="696.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1725.864664554596" y1="738.7916564941406" x2="1462.114664554596" y2="738.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1462.114664554596" y1="780.7916564941406" x2="1198.364664554596" y2="780.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1198.364664554596" y1="822.7916564941406" x2="934.614664554596" y2="822.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="934.614664554596" y1="864.7916564941406" x2="670.864664554596" y2="864.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="670.864664554596" y1="906.7916564941406" x2="407.11466455459595" y2="906.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1452.994664554596" y="25.00165649414062" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - News Module</text>
+<rect x="337.11" y="70.0" width="2250.0" height="998.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="1462.1100000000001" y="569.395" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - News Module</text>
+<circle cx="407.11466455459595" cy="200.79165649414062" r="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+<line x1="407.11466455459595" y1="207.79165649414062" x2="407.11466455459595" y2="221.79165649414062" stroke="#CBD5E1"/>
+<line x1="399.11466455459595" y1="212.79165649414062" x2="415.11466455459595" y2="212.79165649414062" stroke="#CBD5E1"/>
+<line x1="407.11466455459595" y1="221.79165649414062" x2="400.11466455459595" y2="231.79165649414062" stroke="#CBD5E1"/>
+<line x1="407.11466455459595" y1="221.79165649414062" x2="414.11466455459595" y2="231.79165649414062" stroke="#CBD5E1"/>
+<line x1="407.11466455459595" y1="241.79165649414062" x2="407.11466455459595" y2="1068.7916564941406" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="407.11466455459595" y="161.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Administrador</text>
+<rect x="585.864664554596" y="186.79165649414062" width="170.0" height="42" rx="3" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<text x="670.864664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Panel Administrativo Web</text>
+<line x1="670.864664554596" y1="228.79165649414062" x2="670.864664554596" y2="1068.7916564941406" stroke="#5B9BD5" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="864.614664554596" y="186.79165649414062" width="140.0" height="42" rx="3" fill="#173B23" stroke="#70AD47" stroke-width="1"/>
+<text x="934.614664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">API Gateway</text>
+<line x1="934.614664554596" y1="228.79165649414062" x2="934.614664554596" y2="1068.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1128.364664554596" y="186.79165649414062" width="140.0" height="42" rx="3" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<text x="1198.364664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Backend API</text>
+<line x1="1198.364664554596" y1="228.79165649414062" x2="1198.364664554596" y2="1068.7916564941406" stroke="#A77AC4" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1392.114664554596" y="186.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="1462.114664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="1462.114664554596" y1="228.79165649414062" x2="1462.114664554596" y2="1068.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1645.864664554596" y="186.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1725.864664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1725.864664554596" y1="228.79165649414062" x2="1725.864664554596" y2="1068.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1909.614664554596" y="186.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="1989.614664554596" y="212.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="1989.614664554596" y1="228.79165649414062" x2="1989.614664554596" y2="1068.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="2173.364664554596" y="186.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="2253.364664554596" y="212.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Blob Storage Adapter</text>
+<line x1="2253.364664554596" y1="228.79165649414062" x2="2253.364664554596" y2="1068.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="2447.114664554596" y="186.79165649414062" width="140.0" height="42" rx="3" fill="#4A3A00" stroke="#E6C84F" stroke-width="1"/>
+<text x="2517.114664554596" y="212.79165649414062" fill="#FFF6CC" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Azure Blob Storage</text>
+<line x1="2517.114664554596" y1="228.79165649414062" x2="2517.114664554596" y2="1068.7916564941406" stroke="#E6C84F" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1392.114664554596" y="419.7916564941406" width="1195.0" height="179.0" rx="0" fill="none" stroke="#A77AC4" stroke-width="1.2"/>
+<text x="1989.614664554596" y="509.2916564941406" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">opt [noticia contiene imagen]</text>
+<rect x="665.864664554596" y="268.7916564941406" width="10.0" height="646.0" rx="0" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<rect x="929.614664554596" y="310.7916564941406" width="10.0" height="562.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1193.364664554596" y="352.7916564941406" width="10.0" height="478.0" rx="0" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<rect x="1457.114664554596" y="394.7916564941406" width="10.0" height="394.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="2248.364664554596" y="436.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="2512.114664554596" y="478.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A3A00" stroke="#E6C84F" stroke-width="1"/>
+<rect x="1720.864664554596" y="604.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="1984.614664554596" y="646.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="536.1196645545959" y="253.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">publicarNoticia(datos, imagen)</text>
+<text x="802.9996645545959" y="303.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">publicarNoticia(propertyId, datos, imagen, JWT)</text>
+<text x="1070.619664554596" y="345.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">publicarNoticia(...)</text>
+<text x="1329.999664554596" y="387.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">publicarNoticia(subject, propertyId, datos, imagen)</text>
+<text x="1857.739664554596" y="441.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">almacenarImagen(imagen)</text>
+<text x="2385.239664554596" y="483.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">upload(imagen)</text>
+<text x="2385.239664554596" y="525.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">referenciaImagen</text>
+<text x="1857.739664554596" y="567.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">referenciaImagen</text>
+<text x="1593.989664554596" y="609.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">guardarNoticia(datos, referenciaImagen)</text>
+<text x="1857.739664554596" y="651.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">insertar / actualizar noticia</text>
+<text x="1857.739664554596" y="693.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">noticia persistida</text>
+<text x="1594.0996645545958" y="719.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">noticia publicada</text>
+<text x="1329.999664554596" y="765.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">operación exitosa</text>
+<text x="1070.619664554596" y="803.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">201 Created</text>
+<text x="803.099664554596" y="845.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">noticia publicada</text>
+<text x="536.1196645545959" y="887.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">mostrar publicación</text>
+</svg>

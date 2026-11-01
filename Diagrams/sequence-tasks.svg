@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2375.114664554596 938.7916564941406" width="2375.114664554596" height="938.7916564941406">
+<rect x="-40.0" y="-40.0" width="2375.114664554596" height="938.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="565.114664554596" y1="218.79165649414062" x2="840.114664554596" y2="218.79165649414062" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="840.114664554596" y1="260.7916564941406" x2="1115.114664554596" y2="260.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1115.114664554596" y1="302.7916564941406" x2="1390.114664554596" y2="302.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1390.114664554596" y1="344.7916564941406" x2="1665.114664554596" y2="344.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1665.114664554596" y1="386.7916564941406" x2="1940.114664554596" y2="386.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1940.114664554596" y1="428.7916564941406" x2="2215.114664554596" y2="428.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="2215.114664554596" y1="470.7916564941406" x2="1940.114664554596" y2="470.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1940.114664554596" y1="512.7916564941406" x2="1665.114664554596" y2="512.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1665.114664554596" y1="554.7916564941406" x2="1390.114664554596" y2="554.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1390.114664554596" y1="596.7916564941406" x2="1115.114664554596" y2="596.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1115.114664554596" y1="638.7916564941406" x2="840.114664554596" y2="638.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="840.114664554596" y1="680.7916564941406" x2="565.114664554596" y2="680.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1390.114664554596" y="35.001656494140626" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - Tasks Module</text>
+<rect x="495.11" y="60.0" width="1790.0" height="798.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="1390.1100000000001" y="459.395" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - Tasks Module</text>
+<circle cx="565.114664554596" cy="142.79165649414062" r="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+<line x1="565.114664554596" y1="149.79165649414062" x2="565.114664554596" y2="163.79165649414062" stroke="#CBD5E1"/>
+<line x1="557.114664554596" y1="154.79165649414062" x2="573.114664554596" y2="154.79165649414062" stroke="#CBD5E1"/>
+<line x1="565.114664554596" y1="163.79165649414062" x2="558.114664554596" y2="173.79165649414062" stroke="#CBD5E1"/>
+<line x1="565.114664554596" y1="163.79165649414062" x2="572.114664554596" y2="173.79165649414062" stroke="#CBD5E1"/>
+<line x1="565.114664554596" y1="183.79165649414062" x2="565.114664554596" y2="858.7916564941406" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="565.114664554596" y="103.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Administrador</text>
+<rect x="755.114664554596" y="128.79165649414062" width="170.0" height="42" rx="3" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<text x="840.114664554596" y="154.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Panel Administrativo Web</text>
+<line x1="840.114664554596" y1="170.79165649414062" x2="840.114664554596" y2="858.7916564941406" stroke="#5B9BD5" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1045.114664554596" y="128.79165649414062" width="140.0" height="42" rx="3" fill="#173B23" stroke="#70AD47" stroke-width="1"/>
+<text x="1115.114664554596" y="154.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">API Gateway</text>
+<line x1="1115.114664554596" y1="170.79165649414062" x2="1115.114664554596" y2="858.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1320.114664554596" y="128.79165649414062" width="140.0" height="42" rx="3" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<text x="1390.114664554596" y="154.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Backend API</text>
+<line x1="1390.114664554596" y1="170.79165649414062" x2="1390.114664554596" y2="858.7916564941406" stroke="#A77AC4" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1595.114664554596" y="128.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="1665.114664554596" y="154.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="1665.114664554596" y1="170.79165649414062" x2="1665.114664554596" y2="858.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1860.114664554596" y="128.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1940.114664554596" y="154.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1940.114664554596" y1="170.79165649414062" x2="1940.114664554596" y2="858.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="2135.114664554596" y="128.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="2215.114664554596" y="154.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="2215.114664554596" y1="170.79165649414062" x2="2215.114664554596" y2="858.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="835.114664554596" y="210.79165649414062" width="10.0" height="478.0" rx="0" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<rect x="1110.114664554596" y="252.79165649414062" width="10.0" height="394.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1385.114664554596" y="294.7916564941406" width="10.0" height="310.0" rx="0" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<rect x="1660.114664554596" y="336.7916564941406" width="10.0" height="226.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1935.114664554596" y="378.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="2210.114664554596" y="420.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="702.614664554596" y="215.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">asignarTarea(datos)</text>
+<text x="978.0046645545959" y="237.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">asignarTarea(propertyId, datos, JWT)</text>
+<text x="1252.614664554596" y="279.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">asignarTarea(...)</text>
+<text x="1528.004664554596" y="321.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">asignarTarea(subject, propertyId, datos)</text>
+<text x="1802.614664554596" y="363.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">guardarTareaAsignada(datos)</text>
+<text x="2078.0046645545963" y="415.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">insertar / actualizar tarea + responsable</text>
+<text x="2078.004664554596" y="479.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">tarea asignada</text>
+<text x="1802.614664554596" y="521.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">tarea persistida</text>
+<text x="1528.004664554596" y="570.0016564941407" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">operación exitosa</text>
+<text x="1252.614664554596" y="577.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">200 OK</text>
+<text x="978.0046645545959" y="619.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">tarea asignada</text>
+<text x="705.9146645545959" y="661.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">mostrar confirmación</text>
+</svg>

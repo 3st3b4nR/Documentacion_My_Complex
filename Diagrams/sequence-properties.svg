@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2186.114664554596 999.7916564941406" width="2186.114664554596" height="999.7916564941406">
+<rect x="-40.0" y="-40.0" width="2186.114664554596" height="999.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="376.11466455459595" y1="279.7916564941406" x2="651.114664554596" y2="279.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="651.114664554596" y1="321.7916564941406" x2="926.114664554596" y2="321.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="926.114664554596" y1="363.7916564941406" x2="1201.114664554596" y2="363.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1201.114664554596" y1="405.7916564941406" x2="1476.114664554596" y2="405.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1476.114664554596" y1="447.7916564941406" x2="1751.114664554596" y2="447.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1751.114664554596" y1="489.7916564941406" x2="2026.114664554596" y2="489.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="2026.114664554596" y1="531.7916564941406" x2="1751.114664554596" y2="531.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1751.114664554596" y1="573.7916564941406" x2="1476.114664554596" y2="573.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1476.114664554596" y1="615.7916564941406" x2="1201.114664554596" y2="615.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1201.114664554596" y1="657.7916564941406" x2="926.114664554596" y2="657.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="926.114664554596" y1="699.7916564941406" x2="651.114664554596" y2="699.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="651.114664554596" y1="741.7916564941406" x2="376.11466455459595" y2="741.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="376.11466455459595" y1="279.7916564941406" x2="651.114664554596" y2="279.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1204.2146645545959" y="25.00165649414062" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - Properties Module</text>
+<rect x="306.11" y="80.0" width="1790.0" height="839.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="1201.1100000000001" y="499.895" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - Properties Module</text>
+<circle cx="376.11466455459595" cy="203.79165649414062" r="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+<line x1="376.11466455459595" y1="210.79165649414062" x2="376.11466455459595" y2="224.79165649414062" stroke="#CBD5E1"/>
+<line x1="368.11466455459595" y1="215.79165649414062" x2="384.11466455459595" y2="215.79165649414062" stroke="#CBD5E1"/>
+<line x1="376.11466455459595" y1="224.79165649414062" x2="369.11466455459595" y2="234.79165649414062" stroke="#CBD5E1"/>
+<line x1="376.11466455459595" y1="224.79165649414062" x2="383.11466455459595" y2="234.79165649414062" stroke="#CBD5E1"/>
+<line x1="376.11466455459595" y1="244.79165649414062" x2="376.11466455459595" y2="919.7916564941406" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="376.11466455459595" y="164.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Administrador</text>
+<rect x="566.114664554596" y="189.79165649414062" width="170.0" height="42" rx="3" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<text x="651.114664554596" y="215.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Panel Administrativo Web</text>
+<line x1="651.114664554596" y1="231.79165649414062" x2="651.114664554596" y2="919.7916564941406" stroke="#5B9BD5" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="856.114664554596" y="189.79165649414062" width="140.0" height="42" rx="3" fill="#173B23" stroke="#70AD47" stroke-width="1"/>
+<text x="926.114664554596" y="215.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">API Gateway</text>
+<line x1="926.114664554596" y1="231.79165649414062" x2="926.114664554596" y2="919.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1131.114664554596" y="189.79165649414062" width="140.0" height="42" rx="3" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<text x="1201.114664554596" y="215.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Backend API</text>
+<line x1="1201.114664554596" y1="231.79165649414062" x2="1201.114664554596" y2="919.7916564941406" stroke="#A77AC4" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1406.114664554596" y="189.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="1476.114664554596" y="215.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="1476.114664554596" y1="231.79165649414062" x2="1476.114664554596" y2="919.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1671.114664554596" y="189.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1751.114664554596" y="215.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1751.114664554596" y1="231.79165649414062" x2="1751.114664554596" y2="919.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1946.114664554596" y="189.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="2026.114664554596" y="215.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="2026.114664554596" y1="231.79165649414062" x2="2026.114664554596" y2="919.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="646.114664554596" y="271.7916564941406" width="10.0" height="478.0" rx="0" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<rect x="921.114664554596" y="313.7916564941406" width="10.0" height="394.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1196.114664554596" y="355.7916564941406" width="10.0" height="310.0" rx="0" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<rect x="1471.114664554596" y="397.7916564941406" width="10.0" height="226.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1746.114664554596" y="439.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="2021.114664554596" y="481.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="788.2046645545959" y="306.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultarUnidades(propertyId, JWT)</text>
+<text x="1063.2046645545959" y="348.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultarUnidades(propertyId, JWT)</text>
+<text x="1339.104664554596" y="382.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">obtenerUnidades(propertyId)</text>
+<text x="1613.804664554596" y="432.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">cargarUnidades(propertyId)</text>
+<text x="1894.814664554596" y="454.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultar estructuras y unidades</text>
+<text x="1889.104664554596" y="554.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">datos de unidades</text>
+<text x="1613.604664554596" y="554.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">unidades residenciales</text>
+<text x="1339.104664554596" y="638.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">unidades[]</text>
+<text x="1052.2146645545959" y="638.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">200 OK + unidades</text>
+<text x="789.0046645545959" y="668.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">unidades disponibles</text>
+<text x="513.614664554596" y="722.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">mostrar unidades</text>
+<text x="511.71466455459597" y="265.00165649414066" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultarUnidadesResidenciales()</text>
+</svg>

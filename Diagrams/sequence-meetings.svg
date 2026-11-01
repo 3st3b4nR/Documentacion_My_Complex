@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2079.114664554596 1011.7916564941406" width="2079.114664554596" height="1011.7916564941406">
+<rect x="-40.0" y="-40.0" width="2079.114664554596" height="1011.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="269.11466455459595" y1="291.7916564941406" x2="544.114664554596" y2="291.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="544.114664554596" y1="333.7916564941406" x2="819.114664554596" y2="333.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="819.114664554596" y1="375.7916564941406" x2="1094.114664554596" y2="375.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1094.114664554596" y1="417.7916564941406" x2="1369.114664554596" y2="417.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1369.114664554596" y1="459.7916564941406" x2="1644.114664554596" y2="459.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1644.114664554596" y1="501.7916564941406" x2="1919.114664554596" y2="501.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1919.114664554596" y1="543.7916564941406" x2="1644.114664554596" y2="543.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1644.114664554596" y1="585.7916564941406" x2="1369.114664554596" y2="585.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1369.114664554596" y1="627.7916564941406" x2="1094.114664554596" y2="627.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1094.114664554596" y1="669.7916564941406" x2="819.114664554596" y2="669.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="819.114664554596" y1="711.7916564941406" x2="544.114664554596" y2="711.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="544.114664554596" y1="753.7916564941406" x2="269.11466455459595" y2="753.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1094.114664554596" y="45.00165649414062" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - Meetings Module</text>
+<rect x="199.11" y="100.0" width="1790.0" height="831.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="1094.1100000000001" y="515.895" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - Meetings Module</text>
+<circle cx="269.11466455459595" cy="215.79165649414062" r="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+<line x1="269.11466455459595" y1="222.79165649414062" x2="269.11466455459595" y2="236.79165649414062" stroke="#CBD5E1"/>
+<line x1="261.11466455459595" y1="227.79165649414062" x2="277.11466455459595" y2="227.79165649414062" stroke="#CBD5E1"/>
+<line x1="269.11466455459595" y1="236.79165649414062" x2="262.11466455459595" y2="246.79165649414062" stroke="#CBD5E1"/>
+<line x1="269.11466455459595" y1="236.79165649414062" x2="276.11466455459595" y2="246.79165649414062" stroke="#CBD5E1"/>
+<line x1="269.11466455459595" y1="256.7916564941406" x2="269.11466455459595" y2="931.7916564941406" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="269.11466455459595" y="176.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Administrador</text>
+<rect x="459.11466455459595" y="201.79165649414062" width="170.0" height="42" rx="3" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<text x="544.114664554596" y="227.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Panel Administrativo Web</text>
+<line x1="544.114664554596" y1="243.79165649414062" x2="544.114664554596" y2="931.7916564941406" stroke="#5B9BD5" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="749.114664554596" y="201.79165649414062" width="140.0" height="42" rx="3" fill="#173B23" stroke="#70AD47" stroke-width="1"/>
+<text x="819.114664554596" y="227.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">API Gateway</text>
+<line x1="819.114664554596" y1="243.79165649414062" x2="819.114664554596" y2="931.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1024.114664554596" y="201.79165649414062" width="140.0" height="42" rx="3" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<text x="1094.114664554596" y="227.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Backend API</text>
+<line x1="1094.114664554596" y1="243.79165649414062" x2="1094.114664554596" y2="931.7916564941406" stroke="#A77AC4" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1299.114664554596" y="201.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="1369.114664554596" y="227.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="1369.114664554596" y1="243.79165649414062" x2="1369.114664554596" y2="931.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1564.114664554596" y="201.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1644.114664554596" y="227.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1644.114664554596" y1="243.79165649414062" x2="1644.114664554596" y2="931.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1839.114664554596" y="201.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="1919.114664554596" y="227.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="1919.114664554596" y1="243.79165649414062" x2="1919.114664554596" y2="931.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="539.114664554596" y="283.7916564941406" width="10.0" height="478.0" rx="0" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<rect x="814.114664554596" y="325.7916564941406" width="10.0" height="394.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1089.114664554596" y="367.7916564941406" width="10.0" height="310.0" rx="0" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<rect x="1364.114664554596" y="409.7916564941406" width="10.0" height="226.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1639.114664554596" y="451.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="1914.114664554596" y="493.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="406.61466455459595" y="268.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">crearReunion(datos)</text>
+<text x="682.0046645545959" y="325.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">crearReunion(propertyId, datos, JWT)</text>
+<text x="956.614664554596" y="356.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">crearReunion(...)</text>
+<text x="1231.614664554596" y="405.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">crearReunion(subject, propertyId, datos)</text>
+<text x="1508.414664554596" y="435.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">guardarReunion(datos)</text>
+<text x="1781.614664554596" y="478.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">insertar reunión</text>
+<text x="1788.2146645545959" y="552.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">reunión persistida</text>
+<text x="1508.414664554596" y="569.0016564941407" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">reunión creada</text>
+<text x="1231.614664554596" y="608.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">operación exitosa</text>
+<text x="956.614664554596" y="650.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">201 Created</text>
+<text x="682.0046645545959" y="692.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">reunión creada</text>
+<text x="406.61466455459595" y="734.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">mostrar confirmación</text>
+</svg>
