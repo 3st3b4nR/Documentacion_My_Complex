@@ -1,6 +1,7 @@
 # definir la estrategia de versionado de mycomplex
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Parcialmente implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-23
 

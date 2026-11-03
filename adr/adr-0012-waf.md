@@ -1,6 +1,7 @@
 # proteger la aplicacion contra ataques web
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Documentado como arquitectura objetivo
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-23
 

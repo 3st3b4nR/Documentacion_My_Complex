@@ -1,6 +1,7 @@
 # centralizar el acceso a las api de mycomplex mediante un api gateway
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
 * Fecha: 2026-10-13
 
 ## Contexto y planteamiento del problema
