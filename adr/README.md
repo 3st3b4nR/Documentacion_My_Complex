@@ -4,9 +4,9 @@
 
 | Estado de implementación | Cantidad |
 | --- | ---: |
-| Implementado | 27 |
+| Implementado | 28 |
 | Parcialmente implementado | 2 |
-| Documentado como arquitectura objetivo | 3 |
+| Documentado como arquitectura objetivo | 4 |
 | Pendiente de despliegue | 0 |
 
 No todos los ADR requieren PoC. Las PoC existentes son las únicas definidas por el equipo.
@@ -45,3 +45,5 @@ No todos los ADR requieren PoC. Las PoC existentes son las únicas definidas por
 | [ADR-0030](adr-0030-estrategia-versionado.md) | definir la estrategia de versionado de mycomplex | Aceptado | Parcialmente implementado |
 | [ADR-0031](adr-0031-pruebas-unitarias.md) | seleccionar el framework de pruebas unitarias del backend | Aceptado | Implementado |
 | [ADR-0032](adr-0032-API-Gateway.md) | centralizar el acceso a las api de mycomplex mediante un api gateway | Aceptado | Implementado |
+| [ADR-0033](adr-0033-arquitectura-observabilidad.md) | definir la arquitectura de observabilidad de mycomplex | Aceptado | Implementado |
+| [ADR-0034](adr-0034-despliegue-frontend-angular.md) | desplegar el frontend angular en Azure Static Web Apps | Aceptado | Documentado como arquitectura objetivo |
