@@ -69,7 +69,7 @@ Los assets deben versionarse para facilitar su invalidación. Después de cada d
 
 ### Seguridad
 
-La publicación utilizará HTTPS. Se configurarán CSP y otros encabezados de seguridad cuando la plataforma lo permita, sin incluir secretos en el bundle. CORS aceptará únicamente los orígenes necesarios y la autorización real permanecerá en Gateway y backend. ADR-0012 selecciona Cloudflare WAF como arquitectura objetivo, pero este ADR no afirma que actualmente proteja al frontend desplegado.
+La publicación utilizará HTTPS. Se configurarán CSP y otros encabezados de seguridad cuando la plataforma lo permita, sin incluir secretos en el bundle. CORS aceptará únicamente los orígenes necesarios y la autorización real permanecerá en Gateway y backend. ADR-0012 documenta el WAF implementado con OWASP CRS en un contenedor. Esa protección solo cubre el tráfico encaminado a través del contenedor y no debe atribuirse automáticamente a una URL de Static Web Apps que lo omita.
 
 ### Consecuencias positivas
 
@@ -140,7 +140,7 @@ Plataforma administrada para alojar aplicaciones y servidores web.
 * Stack de la SPA: [ADR-0011: Angular y TypeScript](adr-0011-stack-frontend.md).
 * Autenticación y configuración de Auth0: [ADR-0006](adr-0006-autenticacion.md).
 * Notificaciones y Service Worker de Firebase: [ADR-0009](adr-0009-notificaciones-push.md).
-* Protección perimetral documentada como arquitectura objetivo: [ADR-0012: Cloudflare WAF](adr-0012-waf.md).
+* Protección web implementada: [ADR-0012: OWASP CRS en un contenedor](adr-0012-waf.md).
 * Empaquetado considerado por la alternativa Nginx: [ADR-0016: Docker](adr-0016-empaquetado-docker.md).
 * Plataforma de nube: [ADR-0017: Azure Container Apps](adr-0017-ejecucion-nube.md).
 * Automatización: [ADR-0022](adr-0022-automatizacion-pruebas-despliegues.md) y [ADR-0028](adr-0028-cicd.md).

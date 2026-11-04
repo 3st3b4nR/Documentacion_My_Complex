@@ -4,9 +4,9 @@
 
 | Estado de implementación | Cantidad |
 | --- | ---: |
-| Implementado | 28 |
+| Implementado | 29 |
 | Parcialmente implementado | 2 |
-| Documentado como arquitectura objetivo | 4 |
+| Documentado como arquitectura objetivo | 3 |
 | Pendiente de despliegue | 0 |
 
 No todos los ADR requieren PoC. Las PoC existentes son las únicas definidas por el equipo.
@@ -24,7 +24,7 @@ No todos los ADR requieren PoC. Las PoC existentes son las únicas definidas por
 | [ADR-0009](adr-0009-notificaciones-push.md) | implementar el servicio de notificaciones push | Aceptado | Implementado |
 | [ADR-0010](adr-0010-correos-transaccionales.md) | implementar el servicio de correos transaccionales | Aceptado | Implementado |
 | [ADR-0011](adr-0011-stack-frontend.md) | Definir el stack del frontend de MyComplex con Angular y TypeScript | Aceptado | Implementado |
-| [ADR-0012](adr-0012-waf.md) | proteger la aplicacion contra ataques web | Aceptado | Documentado como arquitectura objetivo |
+| [ADR-0012](adr-0012-waf.md) | proteger la aplicación con OWASP Core Rule Set en un contenedor | Aceptado | Implementado |
 | [ADR-0013](adr-0013-almacenamiento-imagenes.md) | almacenar las imagenes de las noticias | Aceptado | Implementado |
 | [ADR-0014](adr-0014-internacionalizacion.md) | mostrar la plataforma en espanol e ingles | Aceptado | Documentado como arquitectura objetivo |
 | [ADR-0015](adr-0015-monitoreo.md) | seleccionar la plataforma de monitoreo de mycomplex | Aceptado | Implementado |
@@ -45,5 +45,5 @@ No todos los ADR requieren PoC. Las PoC existentes son las únicas definidas por
 | [ADR-0030](adr-0030-estrategia-versionado.md) | definir la estrategia de versionado de mycomplex | Aceptado | Parcialmente implementado |
 | [ADR-0031](adr-0031-pruebas-unitarias.md) | seleccionar el framework de pruebas unitarias del backend | Aceptado | Implementado |
 | [ADR-0032](adr-0032-API-Gateway.md) | centralizar el acceso a las api de mycomplex mediante un api gateway | Aceptado | Implementado |
-| [ADR-0033](adr-0033-arquitectura-observabilidad.md) | definir la arquitectura de observabilidad de mycomplex | Aceptado | Implementado |
+| [ADR-0033](adr-0033-arquitectura-observabilidad.md) | centralizar la observabilidad en Azure Monitor y dashboards con Grafana | Aceptado | Implementado |
 | [ADR-0034](adr-0034-despliegue-frontend-angular.md) | desplegar el frontend angular en Azure Static Web Apps | Aceptado | Documentado como arquitectura objetivo |
