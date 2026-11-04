@@ -1,4 +1,4 @@
-# Diagramas de arquitectura de MyComplex
+    # Diagramas de arquitectura de MyComplex
 
 Este documento reúne las vistas de contexto, contenedores, componentes, paquetes y secuencias de MyComplex. Cada imagen puede abrirse en tamaño completo y se enlaza el archivo editable cuando está disponible en el repositorio.
 
@@ -88,15 +88,7 @@ Explica la consulta de estructuras y unidades residenciales asociadas a una copr
 
 [Abrir el SVG en tamaño completo](./Diagrams/sequence-properties.svg)
 
-### Visitors Module
 
-Presenta el diseño del flujo para crear una autorización de visitante, desde el panel administrativo hasta su persistencia. Este diagrama expresa el comportamiento previsto de la funcionalidad y no afirma que el flujo completo esté disponible actualmente.
-
-<a href="./Diagrams/sequence-visitors.svg">
-  <img src="./Diagrams/sequence-visitors.svg" alt="Diagrama de secuencia de Visitors Module" width="100%">
-</a>
-
-[Abrir el SVG en tamaño completo](./Diagrams/sequence-visitors.svg)
 
 ### News Module
 

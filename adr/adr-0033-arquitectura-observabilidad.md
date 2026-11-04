@@ -1,144 +1,162 @@
-# definir la arquitectura de observabilidad de mycomplex
+# centralizar la observabilidad en Azure Monitor y dashboards con Grafana
 
 * Estado de decisión: Aceptado
 * Estado de implementación: Implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
-* Fecha: 2026-11-03
+* Fecha: 2026-11-04
 
-Historia técnica: documentar la instrumentación y el stack de observabilidad implementados, complementando la decisión de plataforma administrada de ADR-0015.
+Historia técnica: precisar la arquitectura de observabilidad implementada y la función de los dashboards con Grafana disponibles en Application Insights.
 
 ## Contexto y planteamiento del problema
 
-MyComplex necesita diagnosticar errores y seguir solicitudes entre el cliente, Spring Cloud Gateway y el backend Spring Boot. También debe consultar métricas técnicas y funcionales, analizar logs estructurados, seguir trazas distribuidas, investigar fallos de tareas, autenticación y notificaciones FCM, y conservar evidencia durable de las operaciones administrativas.
+MyComplex necesita diagnosticar errores, seguir solicitudes entre Spring Cloud Gateway y el backend, consultar métricas, analizar logs y reconstruir la secuencia temporal de una transacción. También debe investigar fallos de tareas, autenticación y notificaciones FCM, y conservar evidencia durable de las operaciones administrativas.
 
-El equipo confirmó la implementación de un stack abierto que puede ejecutarse localmente y trasladarse entre ambientes. La decisión debe distinguir la telemetría operativa de la auditoría persistente y explicar cómo esta solución convive con Azure Monitor y Application Insights, seleccionados en ADR-0015. ¿Qué arquitectura permite correlacionar logs, métricas, trazas y auditoría con bajo acoplamiento a un proveedor?
-
-Este repositorio de documentación no contiene los archivos Compose, dashboards, propiedades ni pruebas de la aplicación. Por esa razón, este ADR no inventa rutas hacia esos artefactos. La evidencia local disponible se limita a los diagramas y ADR enlazados al final.
+ADR-0015 seleccionó Azure Monitor y Application Insights como plataforma de monitoreo. Este ADR concreta esa decisión y evita confundir la interfaz de Grafana con el almacenamiento de la telemetría o con un stack independiente. ¿Cómo se centralizan logs, métricas y trazas en Azure y cómo se visualiza la secuencia de una solicitud sin duplicar plataformas de observabilidad?
 
 ## Impulsores de decisión
 
-* Utilizar estándares abiertos que permitan exportar telemetría a diferentes plataformas.
-* Reproducir localmente la observabilidad del Gateway y el backend.
-* Relacionar métricas, logs y trazas para investigar un mismo incidente.
-* Mantener compatibilidad con Spring Boot, Spring Cloud Gateway y Micrometer.
+* Centralizar la telemetría del Gateway, backend y recursos Azure.
+* Consultar logs desde el portal de Azure mediante Log Analytics y KQL.
+* Visualizar métricas, logs y trazas mediante dashboards con Grafana integrados en Application Insights.
+* Reconstruir solicitudes mediante diagnósticos de transacción de extremo a extremo y su secuencia temporal.
+* Relacionar solicitudes, dependencias, excepciones y logs de una misma operación.
 * Propagar `X-Correlation-Id` entre cliente, Gateway, backend y respuestas.
-* Conservar auditoría durable y consultable en PostgreSQL.
-* Reducir la dependencia de un proveedor sin impedir la integración con Azure.
-* Mantener costo y consumo operativo acordes con la etapa académica y el tamaño actual del sistema.
-* Evitar registrar secretos, tokens o datos personales innecesarios.
+* Mantener auditoría durable de operaciones administrativas en PostgreSQL.
+* Utilizar control de acceso de Azure para proteger dashboards y telemetría.
+* Evitar operar Prometheus, Loki, Tempo, Grafana y Alloy como infraestructura independiente.
+* Mantener costo, retención y volumen de ingestión acordes con la etapa del proyecto.
 
 ## Opciones consideradas
 
-* Stack abierto con OpenTelemetry, Micrometer, Prometheus, Grafana, Loki, Tempo y Grafana Alloy.
-* Azure Monitor y Application Insights como solución principal y exclusiva.
+* Azure Monitor, Application Insights, Log Analytics y dashboards con Grafana integrados en Azure.
+* Azure Managed Grafana como espacio de trabajo independiente.
+* Stack autoadministrado con Prometheus, Grafana, Loki, Tempo y Grafana Alloy.
 * Elastic Stack con Elasticsearch, Logstash y Kibana.
-* Plataforma SaaS de observabilidad con Datadog o New Relic.
+* Plataforma SaaS con Datadog o New Relic.
 * Jaeger como solución específica para trazas distribuidas.
 
 ## Resultado de la decisión
 
-Opción elegida: **"Stack abierto con OpenTelemetry, Micrometer, Prometheus, Grafana, Loki, Tempo y Grafana Alloy"**, porque integra los tres tipos principales de telemetría, puede reproducirse localmente, es compatible con el ecosistema Spring y mantiene abierta la posibilidad de exportar datos a una plataforma administrada.
+Opción elegida: **"Azure Monitor, Application Insights, Log Analytics y dashboards con Grafana integrados en Azure"**, porque centraliza la telemetría en la plataforma Azure ya adoptada, permite consultar logs y visualizar métricas y trazas desde el portal, y evita mantener un stack de observabilidad independiente.
 
-La arquitectura implementada asigna una responsabilidad concreta a cada pieza:
+La solución asigna las siguientes responsabilidades:
 
-* **OpenTelemetry** instrumenta y propaga el contexto de las trazas con un estándar neutral respecto al proveedor.
-* **Micrometer** expone métricas del backend y del Gateway mediante las convenciones del ecosistema Spring.
-* **Prometheus** recolecta y almacena series temporales de métricas.
-* **Grafana** consulta las fuentes de datos y presenta dashboards de métricas, logs y trazas.
-* **Loki** almacena y permite consultar logs estructurados.
-* **Tempo** almacena las trazas distribuidas.
-* **Grafana Alloy** recolecta y envía logs hacia Loki.
-* Los servicios generan **logs ECS JSON**, adecuados para consulta estructurada.
-* El encabezado **`X-Correlation-Id`** se propaga entre cliente, Gateway y backend para relacionar registros y devolver un identificador de diagnóstico al consumidor.
-* La **auditoría durable** registra en PostgreSQL quién realizó una operación administrativa, qué acción ejecutó y sobre qué recurso.
+* **Application Insights** recibe y correlaciona telemetría de aplicación, como solicitudes, dependencias, excepciones y trazas.
+* **Log Analytics** almacena los datos de Application Insights y permite consultar logs mediante KQL.
+* **Azure Monitor** reúne la observabilidad de aplicaciones y recursos Azure.
+* **Dashboards con Grafana en Application Insights** presentan métricas, logs y trazas desde fuentes Azure. Grafana actúa como capa de visualización, no como almacén de telemetría.
+* **Diagnósticos de transacción de extremo a extremo** muestra el recorrido de una operación, sus dependencias, excepciones y una lista ordenada temporalmente de la telemetría relacionada.
+* **`X-Correlation-Id`** relaciona funcionalmente logs y respuestas entre el cliente, Gateway y backend, y facilita buscar una solicitud concreta.
+* **PostgreSQL** conserva la auditoría durable de operaciones administrativas.
 
-Los conceptos no son intercambiables. Los **logs** describen eventos para diagnóstico. Las **métricas** representan valores agregados y medibles. Las **trazas** reconstruyen el recorrido de una solicitud entre componentes. El **Correlation ID** permite unir funcionalmente logs y respuestas, pero no sustituye el contexto de una traza. La **auditoría** conserva evidencia durable de acciones relevantes. Loki no reemplaza esa evidencia y la auditoría en PostgreSQL no reemplaza los logs operativos.
+El acceso principal será desde el recurso Application Insights en el portal de Azure. Los dashboards con Grafana se utilizarán para visualizar información agregada. Para investigar un caso concreto se utilizarán Logs con consultas KQL, búsqueda de transacciones y la vista de detalles de transacción de extremo a extremo.
 
-Azure Monitor y Application Insights conservan la decisión de ADR-0015. Pueden complementar el stack abierto como capa administrada y centralizada para el entorno Azure. OpenTelemetry reduce el acoplamiento y permite exportar telemetría posteriormente, pero este ADR no afirma que Application Insights sustituya automáticamente Prometheus, Loki, Tempo o Grafana.
+Esta decisión no selecciona Azure Managed Grafana como espacio de trabajo independiente. Esa alternativa se reservaría para necesidades como fuentes no Azure, plugins adicionales o funciones de Grafana que no estén disponibles en la experiencia integrada de Application Insights.
 
-No se documentan reglas de alerta concretas porque este repositorio no contiene archivos locales que permitan verificar su definición.
+### Diferencia entre señales y auditoría
+
+* Los **logs** registran eventos y mensajes de diagnóstico consultables en Log Analytics.
+* Las **métricas** representan valores agregados y medibles, como cantidad de solicitudes, errores o latencia.
+* Las **trazas distribuidas** reconstruyen el recorrido de una solicitud y sus dependencias.
+* El **Correlation ID** es un identificador funcional que permite buscar y relacionar registros de una misma solicitud.
+* La **auditoría** conserva evidencia durable de quién hizo qué y sobre qué recurso.
+
+Application Insights y Log Analytics no reemplazan la auditoría en PostgreSQL. La auditoría tampoco reemplaza los logs operativos, las métricas ni las trazas.
+
+No se documentan reglas de alerta específicas porque el repositorio local no contiene archivos que permitan verificar su configuración.
 
 ### Consecuencias positivas
 
-* Métricas, logs y trazas pueden investigarse de forma conjunta.
-* El entorno local puede reproducir la arquitectura de observabilidad sin depender exclusivamente de Azure.
-* OpenTelemetry y los formatos abiertos facilitan migrar o exportar telemetría a otra plataforma.
-* Micrometer ofrece integración natural con Spring Boot y Spring Cloud Gateway.
-* El Correlation ID facilita comunicar y localizar errores reportados por clientes.
-* La auditoría en PostgreSQL conserva evidencia aunque roten o expiren los logs operativos.
-* La solución puede complementarse con Azure Monitor y Application Insights sin invalidar ADR-0015.
+* La observabilidad se consulta desde la plataforma Azure ya utilizada por MyComplex.
+* Logs, métricas y trazas pueden visualizarse desde dashboards con Grafana sin operar un servidor Grafana propio.
+* Log Analytics permite búsquedas detalladas mediante KQL.
+* Application Insights correlaciona solicitudes, dependencias, excepciones y trazas.
+* La secuencia temporal de una transacción facilita localizar el componente que originó un fallo o una demora.
+* El Correlation ID permite comunicar y buscar con precisión un incidente reportado.
+* La auditoría permanece en PostgreSQL con una retención independiente de la telemetría operativa.
+* El control de acceso puede administrarse mediante identidades y roles de Azure.
 
 ### Consecuencias negativas
 
-* El stack requiere más operación que una solución SaaS completamente administrada.
-* El equipo debe administrar almacenamiento, retención, respaldos y disponibilidad de cada componente.
-* Etiquetas de alta cardinalidad pueden aumentar de forma importante el consumo de métricas y logs.
-* Prometheus, Loki, Tempo, Grafana y Alloy consumen recursos adicionales.
-* Los endpoints de métricas, dashboards y datos de telemetría deben protegerse.
-* Los logs estructurados deben excluir credenciales, tokens y datos personales innecesarios.
-* La presencia de dashboards locales no demuestra por sí sola una operación productiva completa.
-* La observabilidad ayuda a detectar y analizar fallos, pero no sustituye pruebas, controles de seguridad ni auditoría.
+* La solución aumenta la dependencia operativa del ecosistema Azure.
+* La ingestión, consultas y retención de telemetría pueden generar costos según el volumen.
+* El muestreo puede impedir que todas las solicitudes aparezcan en las vistas de diagnóstico.
+* Los dashboards y consultas KQL requieren mantenimiento y conocimiento específico.
+* Una instrumentación o correlación incompleta puede fragmentar la secuencia de una transacción.
+* Los logs deben excluir secretos, tokens y datos personales innecesarios.
+* La experiencia integrada de Grafana admite fuentes Azure y tiene menos funciones que un espacio de Azure Managed Grafana independiente.
+* La observabilidad ayuda a detectar y analizar fallos, pero no sustituye pruebas, seguridad ni auditoría.
 
 ## Pros y contras de las opciones
 
-### Stack abierto con OpenTelemetry, Micrometer, Prometheus, Grafana, Loki, Tempo y Alloy
+### Azure Monitor, Application Insights, Log Analytics y dashboards con Grafana
 
-Solución portable que integra instrumentación, métricas, logs, trazas y visualización.
+Solución administrada e integrada con el entorno Azure de MyComplex.
 
-* Bien, porque utiliza estándares y protocolos con bajo acoplamiento a un proveedor.
-* Bien, porque puede ejecutarse de forma local y reproducible.
-* Bien, porque integra fuentes de datos diferentes en Grafana.
-* Bien, porque es compatible con Spring Boot y Spring Cloud Gateway.
-* Bien, porque permite exportar telemetría hacia servicios administrados posteriormente.
-* Malo, porque exige operar, actualizar y proteger varios componentes.
-* Malo, porque el almacenamiento y la retención quedan bajo responsabilidad del equipo.
-* Malo, porque una configuración deficiente de etiquetas puede elevar la cardinalidad y el consumo.
+* Bien, porque centraliza telemetría de aplicación e infraestructura en Azure.
+* Bien, porque permite consultar logs mediante KQL.
+* Bien, porque ofrece dashboards con Grafana dentro de Application Insights.
+* Bien, porque incluye diagnóstico de transacciones y secuencia temporal de eventos relacionados.
+* Bien, porque reduce la infraestructura de observabilidad administrada por el equipo.
+* Malo, porque aumenta la dependencia de Azure.
+* Malo, porque el costo depende de ingestión, consultas y retención.
+* Malo, porque la experiencia integrada de Grafana tiene funciones más limitadas que un espacio independiente.
 
-### Azure Monitor y Application Insights
+### Azure Managed Grafana
 
-Plataforma administrada ya seleccionada en ADR-0015 para centralizar monitoreo en Azure.
+Servicio administrado que proporciona un espacio de trabajo Grafana separado y admite distintas fuentes de datos.
 
-* Bien, porque reduce la administración de infraestructura de observabilidad.
-* Bien, porque se integra con los recursos desplegados en Azure.
-* Bien, porque puede centralizar telemetría y alertas del entorno administrado.
-* Malo, porque aumenta el acoplamiento operativo con Azure si se adopta como única salida.
-* Malo, porque la ingestión y retención crecen con el volumen de telemetría.
-* Malo, porque no reproduce por sí sola el entorno local utilizado por el equipo.
+* Bien, porque ofrece más funciones, plugins y fuentes que los dashboards integrados en Application Insights.
+* Bien, porque se conecta de forma administrada con Azure Monitor.
+* Malo, porque agrega otro recurso que debe configurarse, protegerse y administrar.
+* Malo, porque su capacidad adicional no es necesaria para consultar exclusivamente la telemetría Azure actual.
+
+### Stack autoadministrado con Prometheus, Grafana, Loki, Tempo y Alloy
+
+Conjunto de componentes independientes para métricas, visualización, logs, trazas y recolección.
+
+* Bien, porque ofrece portabilidad y control detallado sobre cada componente.
+* Bien, porque puede ejecutarse fuera de Azure.
+* Malo, porque exige administrar disponibilidad, almacenamiento, retención, actualizaciones y respaldos.
+* Malo, porque duplica capacidades que la decisión actual centraliza en Azure Monitor y Application Insights.
+* Malo, porque consume recursos adicionales y aumenta la complejidad operativa.
 
 ### Elastic Stack
 
 Elasticsearch, Logstash y Kibana proporcionan almacenamiento, procesamiento y consulta flexible de eventos.
 
-* Bien, porque ofrece búsqueda potente y visualización de logs.
+* Bien, porque ofrece búsqueda y análisis detallado de logs.
 * Bien, porque admite diferentes fuentes y transformaciones.
-* Malo, porque su operación y ajuste de recursos agregan complejidad para el tamaño actual del proyecto.
-* Malo, porque requiere complementar o integrar capacidades específicas de métricas y trazas.
+* Malo, porque agrega una plataforma adicional que debe operarse y dimensionarse.
+* Malo, porque requiere complementos o integraciones para cubrir completamente métricas y trazas.
 
 ### Datadog o New Relic
 
-Plataformas SaaS que integran observabilidad y reducen la operación de infraestructura propia.
+Plataformas SaaS que integran observabilidad de aplicaciones e infraestructura.
 
-* Bien, porque ofrecen una experiencia administrada y unificada.
-* Bien, porque reducen el esfuerzo de mantener almacenamiento y visualización.
-* Malo, porque introducen otro proveedor y un costo que depende del volumen y uso.
-* Malo, porque aportan menos reproducibilidad local que el stack actual.
+* Bien, porque reducen la administración de infraestructura propia.
+* Bien, porque ofrecen experiencias unificadas para investigar incidentes.
+* Malo, porque agregan otro proveedor y otro modelo de costos.
+* Malo, porque duplican capacidades disponibles en el entorno Azure seleccionado.
 
 ### Jaeger
 
 Solución especializada en trazas distribuidas.
 
-* Bien, porque permite visualizar recorridos y latencias entre servicios.
-* Bien, porque se integra con instrumentación basada en OpenTelemetry.
-* Malo, porque resuelve principalmente trazas y no unifica por sí solo métricas, logs y auditoría.
-* Malo, porque requeriría componentes adicionales para cubrir el alcance completo.
+* Bien, porque permite analizar recorridos y latencias entre componentes.
+* Bien, porque puede integrarse con instrumentación basada en OpenTelemetry.
+* Malo, porque se concentra en trazas y no centraliza por sí solo logs, métricas y auditoría.
+* Malo, porque requeriría operar componentes adicionales para cubrir todo el alcance.
 
 ## Enlaces
 
-* Decisión de plataforma administrada complementaria: [ADR-0015: Azure Monitor y Application Insights](adr-0015-monitoreo.md).
+* Decisión principal de monitoreo: [ADR-0015: Azure Monitor y Application Insights](adr-0015-monitoreo.md).
 * Trazabilidad y auditoría durable: [ADR-0004](adr-0004-trazabilidad-datos.md).
 * Ejecución en Azure: [ADR-0017](adr-0017-ejecucion-nube.md).
-* Automatización de pruebas y despliegues: [ADR-0022](adr-0022-automatizacion-pruebas-despliegues.md) y [ADR-0028](adr-0028-cicd.md).
+* Identidades y acceso a recursos Azure: [ADR-0024](adr-0024-identidades-administradas.md).
 * Punto de entrada observable: [ADR-0032: API Gateway](adr-0032-API-Gateway.md).
 * Evidencia documental del filtro de correlación: [diagrama de paquetes del API Gateway](../Diagrams/packages-api-gateway.svg).
 * Evidencia documental del flujo de auditoría hacia PostgreSQL: [secuencia de auditoría](../Diagrams/sequence-audit.svg).
-* Vista de monitoreo documentada: [C4 nivel 2](../Diagrams/c4-level-2-containers.svg).
+* Microsoft Learn: [Dashboards con Grafana en Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/grafana-dashboards).
+* Microsoft Learn: [Diagnóstico de transacciones de extremo a extremo](https://learn.microsoft.com/azure/azure-monitor/app/diagnostic-search).
+* Microsoft Learn: [Visualizar datos de Azure Monitor con Grafana](https://learn.microsoft.com/azure/azure-monitor/visualize/visualize-grafana-overview).
