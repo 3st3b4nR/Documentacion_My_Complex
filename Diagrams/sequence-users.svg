@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2361.670219898224 956.7916564941406" width="2361.670219898224" height="956.7916564941406">
+<rect x="-40.0" y="-40.0" width="2361.670219898224" height="956.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="551.6702198982239" y1="236.79165649414062" x2="826.6702198982239" y2="236.79165649414062" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="826.6702198982239" y1="278.7916564941406" x2="1101.6702198982239" y2="278.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1101.6702198982239" y1="320.7916564941406" x2="1376.6702198982239" y2="320.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1376.6702198982239" y1="362.7916564941406" x2="1651.6702198982239" y2="362.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1651.6702198982239" y1="404.7916564941406" x2="1926.6702198982239" y2="404.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1926.6702198982239" y1="446.7916564941406" x2="2201.670219898224" y2="446.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1926.6702198982239" y1="530.7916564941406" x2="1651.6702198982239" y2="530.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1651.6702198982239" y1="572.7916564941406" x2="1376.6702198982239" y2="572.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1376.6702198982239" y1="614.7916564941406" x2="1101.6702198982239" y2="614.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1101.6702198982239" y1="656.7916564941406" x2="826.6702198982239" y2="656.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="826.6702198982239" y1="698.7916564941406" x2="551.6702198982239" y2="698.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="2201.670219898224" y1="488.7916564941406" x2="1930.0" y2="490.0" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1376.6702198982239" y="15.001656494140619" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - Users Module</text>
+<rect x="481.67" y="60.0" width="1790.0" height="816.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="1376.67" y="468.395" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - Users Module</text>
+<circle cx="551.6702198982239" cy="160.79165649414062" r="7" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+<line x1="551.6702198982239" y1="167.79165649414062" x2="551.6702198982239" y2="181.79165649414062" stroke="#CBD5E1"/>
+<line x1="543.6702198982239" y1="172.79165649414062" x2="559.6702198982239" y2="172.79165649414062" stroke="#CBD5E1"/>
+<line x1="551.6702198982239" y1="181.79165649414062" x2="544.6702198982239" y2="191.79165649414062" stroke="#CBD5E1"/>
+<line x1="551.6702198982239" y1="181.79165649414062" x2="558.6702198982239" y2="191.79165649414062" stroke="#CBD5E1"/>
+<line x1="551.6702198982239" y1="201.79165649414062" x2="551.6702198982239" y2="876.7916564941406" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="551.6702198982239" y="121.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Administrador</text>
+<rect x="741.6702198982239" y="146.79165649414062" width="170.0" height="42" rx="3" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<text x="826.6702198982239" y="172.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Panel Administrativo Web</text>
+<line x1="826.6702198982239" y1="188.79165649414062" x2="826.6702198982239" y2="876.7916564941406" stroke="#5B9BD5" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1031.6702198982239" y="146.79165649414062" width="140.0" height="42" rx="3" fill="#173B23" stroke="#70AD47" stroke-width="1"/>
+<text x="1101.6702198982239" y="172.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">API Gateway</text>
+<line x1="1101.6702198982239" y1="188.79165649414062" x2="1101.6702198982239" y2="876.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1306.6702198982239" y="146.79165649414062" width="140.0" height="42" rx="3" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<text x="1376.6702198982239" y="172.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Backend API</text>
+<line x1="1376.6702198982239" y1="188.79165649414062" x2="1376.6702198982239" y2="876.7916564941406" stroke="#A77AC4" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1581.6702198982239" y="146.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="1651.6702198982239" y="172.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="1651.6702198982239" y1="188.79165649414062" x2="1651.6702198982239" y2="876.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1846.6702198982239" y="146.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1926.6702198982239" y="172.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1926.6702198982239" y1="188.79165649414062" x2="1926.6702198982239" y2="876.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="2121.670219898224" y="146.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="2201.670219898224" y="172.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="2201.670219898224" y1="188.79165649414062" x2="2201.670219898224" y2="876.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="821.6702198982239" y="228.79165649414062" width="10.0" height="478.0" rx="0" fill="#17365D" stroke="#5B9BD5" stroke-width="1"/>
+<rect x="1096.6702198982239" y="270.7916564941406" width="10.0" height="394.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1371.6702198982239" y="312.7916564941406" width="10.0" height="310.0" rx="0" fill="#352442" stroke="#A77AC4" stroke-width="1"/>
+<rect x="1646.6702198982239" y="354.7916564941406" width="10.0" height="226.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1921.6702198982239" y="396.7916564941406" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="2196.670219898224" y="438.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="696.4002198982239" y="213.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">seleccionarGestionUsuarios()</text>
+<text x="964.1702198982239" y="265.00165649414066" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultarUsuarios(propertyId, JWT)</text>
+<text x="1240.2002198982238" y="313.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultarUsuarios(propertyId, JWT)</text>
+<text x="1514.100219898224" y="345.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">obtenerUsuarios(propertyId)</text>
+<text x="1789.1702198982239" y="381.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">cargarUsuarios(propertyId)</text>
+<text x="2064.000219898224" y="435.0016564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">consultar usuarios de la copropiedad</text>
+<text x="1789.100219898224" y="539.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">lista de usuarios</text>
+<text x="1514.100219898224" y="553.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">usuarios[]</text>
+<text x="1240.2002198982238" y="623.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">200 OK + usuarios</text>
+<text x="964.0002198982239" y="637.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">usuarios disponibles</text>
+<text x="689.1702198982239" y="715.0016564941407" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">mostrar gestión de usuarios</text>
+<text x="2062.7702198982242" y="511.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">datos de usuarios</text>
+</svg>

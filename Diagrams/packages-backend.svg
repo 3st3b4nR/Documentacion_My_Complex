@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 2050.0 2410.0" width="2050.0" height="2410.0">
+<rect x="-40.0" y="-40.0" width="2050.0" height="2410.0" fill="#FFFFFF"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="432.5" y1="944.0" x2="425.0" y2="694.0" stroke="#2563EB" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="428.75" y="814.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="655.0" y1="694.0" x2="425.0" y2="694.0" stroke="#2563EB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="540.0" y="689.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="655.0" y1="694.0" x2="655.0" y2="516.0" stroke="#2563EB" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="655.0" y="600.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="655.0" y1="694.0" x2="885.0" y2="694.0" stroke="#2563EB" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="770.0" y="689.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<path d="M 702.5 980.0 L 793.75 980.0 L 793.75 694.0 L 885.0 694.0" fill="none" stroke="#2563EB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="793.75" y="832.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1265.0" y1="943.0" x2="1260.0" y2="694.0" stroke="#16A34A" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1262.5" y="813.5" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1505.0" y1="694.0" x2="1260.0" y2="694.0" stroke="#16A34A" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1382.5" y="689.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1505.0" y1="694.0" x2="1505.0" y2="516.0" stroke="#16A34A" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1505.0" y="600.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1505.0" y1="694.0" x2="1750.0" y2="694.0" stroke="#16A34A" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1627.5" y="689.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<path d="M 1620.0 990.0 L 1685.0 990.0 L 1685.0 694.0 L 1750.0 694.0" fill="none" stroke="#16A34A" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1685.0" y="837.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="405.0" y1="1660.0" x2="400.0" y2="1510.0" stroke="#D97706" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="402.5" y="1580.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="650.0" y1="1510.0" x2="400.0" y2="1510.0" stroke="#D97706" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="525.0" y="1505.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="650.0" y1="1510.0" x2="650.0" y2="1380.0" stroke="#D97706" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="650.0" y="1440.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="650.0" y1="1510.0" x2="900.0" y2="1510.0" stroke="#D97706" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="775.0" y="1505.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="895.0" y1="1660.0" x2="900.0" y2="1510.0" stroke="#D97706" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="897.5" y="1580.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1245.0" y1="1660.0" x2="1240.0" y2="1510.0" stroke="#7C3AED" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1242.5" y="1580.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1490.0" y1="1510.0" x2="1240.0" y2="1510.0" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1365.0" y="1505.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1490.0" y1="1510.0" x2="1490.0" y2="1380.0" stroke="#7C3AED" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1490.0" y="1440.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1490.0" y1="1510.0" x2="1740.0" y2="1510.0" stroke="#7C3AED" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1615.0" y="1505.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1735.0" y1="1660.0" x2="1740.0" y2="1510.0" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1737.5" y="1580.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="405.0" y1="2130.0" x2="400.0" y2="1980.0" stroke="#0891B2" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="402.5" y="2050.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="650.0" y1="1980.0" x2="400.0" y2="1980.0" stroke="#0891B2" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="525.0" y="1975.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="650.0" y1="1980.0" x2="650.0" y2="1850.0" stroke="#0891B2" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="650.0" y="1910.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="650.0" y1="1980.0" x2="900.0" y2="1980.0" stroke="#0891B2" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="775.0" y="1975.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="895.0" y1="2130.0" x2="900.0" y2="1980.0" stroke="#0891B2" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="897.5" y="2050.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1245.0" y1="2130.0" x2="1240.0" y2="1980.0" stroke="#E11D48" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1242.5" y="2050.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1490.0" y1="1980.0" x2="1240.0" y2="1980.0" stroke="#E11D48" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1365.0" y="1975.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1490.0" y1="1980.0" x2="1490.0" y2="1850.0" stroke="#E11D48" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1490.0" y="1910.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1490.0" y1="1980.0" x2="1740.0" y2="1980.0" stroke="#E11D48" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1615.0" y="1975.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<line x1="1735.0" y1="2130.0" x2="1740.0" y2="1980.0" stroke="#E11D48" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1737.5" y="2050.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<path d="M230.0,260.0 L230.0,2330.0 L1970.0,2330.0 L1970.0,260.0 L380.0,260.0 L368.0,230.0 L230.0,230.0 Z" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<path d="M260.0,295.0 L260.0,400.0 L680.0,400.0 L680.0,295.0 L345.0,295.0 L333.0,270.0 L260.0,270.0 Z" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="470.0" y="335.0" fill="#111827" font-family="Arial" font-size="14.0" font-weight="bold" text-anchor="middle">shared</text>
+<path d="M290.0,337.0 L290.0,373.0 L640.0,373.0 L640.0,337.0 L440.0,337.0 L428.0,315.0 L290.0,315.0 Z" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+<text x="465.0" y="337.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">infrastructure.security</text>
+<text x="465.0" y="351.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">SecurityConfig</text>
+<path d="M260.0,463.0 L260.0,1185.0 L1050.0,1185.0 L1050.0,463.0 L345.0,463.0 L333.0,435.0 L260.0,435.0 Z" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="655.0" y="810.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">users</text>
+<path d="M525.0,504.0 L525.0,552.0 L785.0,552.0 L785.0,504.0 L620.0,504.0 L608.0,480.0 L525.0,480.0 Z" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+<text x="655.0" y="508.85" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="655.0" y="523.8000000000001" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">model</text>
+<path d="M300.0,619.0 L300.0,800.0 L1010.0,800.0 L1010.0,619.0 L410.0,619.0 L398.0,595.0 L300.0,595.0 Z" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1"/>
+<text x="655.0" y="697.5" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M330.0,677.0 L330.0,733.0 L520.0,733.0 L520.0,677.0 L420.0,677.0 L408.0,655.0 L330.0,655.0 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+<text x="425.0" y="687.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="425.0" y="701.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">FindUserPropertiesUseCase</text>
+<path d="M560.0,677.0 L560.0,733.0 L750.0,733.0 L750.0,677.0 L650.0,677.0 L638.0,655.0 L560.0,655.0 Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="1"/>
+<text x="655.0" y="687.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">service</text>
+<text x="655.0" y="701.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">FindUserPropertiesService</text>
+<path d="M790.0,677.0 L790.0,733.0 L980.0,733.0 L980.0,677.0 L880.0,677.0 L868.0,655.0 L790.0,655.0 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+<text x="885.0" y="687.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="885.0" y="701.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">LoadUserPropertiesPort</text>
+<path d="M300.0,864.0 L300.0,1145.0 L1010.0,1145.0 L1010.0,864.0 L425.0,864.0 L413.0,840.0 L300.0,840.0 Z" fill="#FFFFFF" stroke="#60A5FA" stroke-width="1"/>
+<text x="655.0" y="992.5" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M330.0,922.0 L330.0,988.0 L535.0,988.0 L535.0,922.0 L453.0,922.0 L441.0,900.0 L330.0,900.0 Z" fill="#F0F9FF" stroke="#0284C7" stroke-width="1"/>
+<text x="432.5" y="937.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">adapter.in.rest</text>
+<text x="432.5" y="951.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">dto · mapper · controllers</text>
+<path d="M565.0,907.0 L565.0,1075.0 L840.0,1075.0 L840.0,907.0 L670.0,907.0 L658.0,885.0 L565.0,885.0 Z" fill="#FFFFFF" stroke="#0284C7" stroke-width="1"/>
+<text x="702.5" y="980.0" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<path d="M590.0,962.0 L590.0,1035.0 L815.0,1035.0 L815.0,962.0 L725.0,962.0 L713.0,940.0 L590.0,940.0 Z" fill="#F0F9FF" stroke="#0284C7" stroke-width="1"/>
+<text x="702.5" y="974.3" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">persistence</text>
+<text x="702.5" y="988.0999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">dbo · entity · mapper ·</text>
+<text x="702.5" y="1001.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">repository</text>
+<path d="M860.0,922.0 L860.0,988.0 L980.0,988.0 L980.0,922.0 L932.0,922.0 L920.0,900.0 L860.0,900.0 Z" fill="#F0F9FF" stroke="#0284C7" stroke-width="1"/>
+<text x="920.0" y="937.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="920.0" y="951.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">UserModuleConfig</text>
+<path d="M1090.0,463.0 L1090.0,1185.0 L1920.0,1185.0 L1920.0,463.0 L1175.0,463.0 L1163.0,435.0 L1090.0,435.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="2"/>
+<text x="1505.0" y="810.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">news</text>
+<path d="M1375.0,504.0 L1375.0,552.0 L1635.0,552.0 L1635.0,504.0 L1470.0,504.0 L1458.0,480.0 L1375.0,480.0 Z" fill="#DCFCE7" stroke="#22C55E" stroke-width="1"/>
+<text x="1505.0" y="508.85" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="1505.0" y="523.8000000000001" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">model · event</text>
+<path d="M1130.0,619.0 L1130.0,800.0 L1880.0,800.0 L1880.0,619.0 L1240.0,619.0 L1228.0,595.0 L1130.0,595.0 Z" fill="#FFFFFF" stroke="#4ADE80" stroke-width="1"/>
+<text x="1505.0" y="697.5" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M1160.0,677.0 L1160.0,733.0 L1360.0,733.0 L1360.0,677.0 L1250.0,677.0 L1238.0,655.0 L1160.0,655.0 Z" fill="#ECFDF5" stroke="#16A34A" stroke-width="1"/>
+<text x="1260.0" y="687.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="1260.0" y="701.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">commands · use cases</text>
+<path d="M1405.0,677.0 L1405.0,733.0 L1605.0,733.0 L1605.0,677.0 L1525.0,677.0 L1513.0,655.0 L1405.0,655.0 Z" fill="#DCFCE7" stroke="#16A34A" stroke-width="1"/>
+<text x="1505.0" y="687.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">service · exception</text>
+<text x="1505.0" y="701.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">CreateNewsService</text>
+<path d="M1650.0,667.0 L1650.0,743.0 L1850.0,743.0 L1850.0,667.0 L1740.0,667.0 L1728.0,645.0 L1650.0,645.0 Z" fill="#ECFDF5" stroke="#16A34A" stroke-width="1"/>
+<text x="1750.0" y="680.8" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="1750.0" y="694.5999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">persistence · authorization</text>
+<text x="1750.0" y="708.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">storage · events</text>
+<path d="M1130.0,864.0 L1130.0,1145.0 L1880.0,1145.0 L1880.0,864.0 L1255.0,864.0 L1243.0,840.0 L1130.0,840.0 Z" fill="#FFFFFF" stroke="#4ADE80" stroke-width="1"/>
+<text x="1505.0" y="992.5" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M1160.0,922.0 L1160.0,986.0 L1370.0,986.0 L1370.0,922.0 L1285.0,922.0 L1273.0,900.0 L1160.0,900.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1265.0" y="936.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">adapter.in.rest</text>
+<text x="1265.0" y="950.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">dto · mapper · controller</text>
+<path d="M1390.0,902.0 L1390.0,1100.0 L1850.0,1100.0 L1850.0,902.0 L1495.0,902.0 L1483.0,880.0 L1390.0,880.0 Z" fill="#FFFFFF" stroke="#16A34A" stroke-width="1"/>
+<text x="1620.0" y="990.0" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<path d="M1415.0,957.0 L1415.0,1011.0 L1605.0,1011.0 L1605.0,957.0 L1529.0,957.0 L1517.0,935.0 L1415.0,935.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1510.0" y="959.8" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">persistence</text>
+<text x="1510.0" y="973.5999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">entity · mapper ·</text>
+<text x="1510.0" y="987.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">repository</text>
+<path d="M1630.0,957.0 L1630.0,1011.0 L1820.0,1011.0 L1820.0,957.0 L1710.0,957.0 L1698.0,935.0 L1630.0,935.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1725.0" y="966.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">blob</text>
+<text x="1725.0" y="980.1999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Azure Blob Storage</text>
+<path d="M1415.0,1057.0 L1415.0,1089.0 L1605.0,1089.0 L1605.0,1057.0 L1529.0,1057.0 L1517.0,1035.0 L1415.0,1035.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1510.0" y="1062.0" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">persistence.authorization</text>
+<path d="M1630.0,1057.0 L1630.0,1089.0 L1820.0,1089.0 L1820.0,1057.0 L1710.0,1057.0 L1698.0,1035.0 L1630.0,1035.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1725.0" y="1055.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">event</text>
+<text x="1725.0" y="1069.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Spring events</text>
+<path d="M1160.0,1042.0 L1160.0,1100.0 L1370.0,1100.0 L1370.0,1042.0 L1240.0,1042.0 L1228.0,1020.0 L1160.0,1020.0 Z" fill="#F0FDF4" stroke="#16A34A" stroke-width="1"/>
+<text x="1265.0" y="1046.8" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="1265.0" y="1060.6" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">BlobStorageConfig</text>
+<text x="1265.0" y="1074.3999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">NewsModuleConfig</text>
+<path d="M260.0,1338.0 L260.0,1740.0 L1040.0,1740.0 L1040.0,1338.0 L365.0,1338.0 L353.0,1310.0 L260.0,1310.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+<text x="650.0" y="1525.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">tasks</text>
+<path d="M540.0,1372.0 L540.0,1410.0 L760.0,1410.0 L760.0,1372.0 L630.0,1372.0 L618.0,1350.0 L540.0,1350.0 Z" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+<text x="650.0" y="1373.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="650.0" y="1387.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">model · event</text>
+<path d="M290.0,1457.0 L290.0,1560.0 L1010.0,1560.0 L1010.0,1457.0 L395.0,1457.0 L383.0,1435.0 L290.0,1435.0 Z" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1"/>
+<text x="650.0" y="1497.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M310.0,1500.0 L310.0,1540.0 L490.0,1540.0 L490.0,1500.0 L390.0,1500.0 L378.0,1480.0 L310.0,1480.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+<text x="400.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="400.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">commands · queries</text>
+<path d="M560.0,1500.0 L560.0,1540.0 L740.0,1540.0 L740.0,1500.0 L640.0,1500.0 L628.0,1480.0 L560.0,1480.0 Z" fill="#FEF3C7" stroke="#D97706" stroke-width="1"/>
+<text x="650.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">service</text>
+<text x="650.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">application services</text>
+<path d="M810.0,1500.0 L810.0,1540.0 L990.0,1540.0 L990.0,1500.0 L890.0,1500.0 L878.0,1480.0 L810.0,1480.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+<text x="900.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="900.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence · events</text>
+<path d="M290.0,1607.0 L290.0,1710.0 L1010.0,1710.0 L1010.0,1607.0 L405.0,1607.0 L393.0,1585.0 L290.0,1585.0 Z" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1"/>
+<text x="650.0" y="1647.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M310.0,1650.0 L310.0,1690.0 L500.0,1690.0 L500.0,1650.0 L420.0,1650.0 L408.0,1630.0 L310.0,1630.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+<text x="405.0" y="1653.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.in.rest</text>
+<text x="405.0" y="1666.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">dto · mapper · controller</text>
+<path d="M560.0,1650.0 L560.0,1690.0 L740.0,1690.0 L740.0,1650.0 L630.0,1650.0 L618.0,1630.0 L560.0,1630.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+<text x="650.0" y="1653.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="650.0" y="1666.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">module configuration</text>
+<path d="M800.0,1650.0 L800.0,1690.0 L990.0,1690.0 L990.0,1650.0 L905.0,1650.0 L893.0,1630.0 L800.0,1630.0 Z" fill="#FFFBEB" stroke="#D97706" stroke-width="1"/>
+<text x="895.0" y="1653.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<text x="895.0" y="1666.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence · events</text>
+<path d="M1100.0,1338.0 L1100.0,1740.0 L1880.0,1740.0 L1880.0,1338.0 L1205.0,1338.0 L1193.0,1310.0 L1100.0,1310.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="2"/>
+<text x="1490.0" y="1525.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">meetings</text>
+<path d="M1380.0,1372.0 L1380.0,1410.0 L1600.0,1410.0 L1600.0,1372.0 L1470.0,1372.0 L1458.0,1350.0 L1380.0,1350.0 Z" fill="#F3E8FF" stroke="#8B5CF6" stroke-width="1"/>
+<text x="1490.0" y="1373.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="1490.0" y="1387.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">model · event</text>
+<path d="M1130.0,1457.0 L1130.0,1560.0 L1850.0,1560.0 L1850.0,1457.0 L1235.0,1457.0 L1223.0,1435.0 L1130.0,1435.0 Z" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1"/>
+<text x="1490.0" y="1497.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M1150.0,1500.0 L1150.0,1540.0 L1330.0,1540.0 L1330.0,1500.0 L1230.0,1500.0 L1218.0,1480.0 L1150.0,1480.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1240.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="1240.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">commands · queries</text>
+<path d="M1400.0,1500.0 L1400.0,1540.0 L1580.0,1540.0 L1580.0,1500.0 L1480.0,1500.0 L1468.0,1480.0 L1400.0,1480.0 Z" fill="#F3E8FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1490.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">service</text>
+<text x="1490.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">application services</text>
+<path d="M1650.0,1500.0 L1650.0,1540.0 L1830.0,1540.0 L1830.0,1500.0 L1730.0,1500.0 L1718.0,1480.0 L1650.0,1480.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1740.0" y="1503.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="1740.0" y="1516.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence · provider</text>
+<path d="M1130.0,1607.0 L1130.0,1710.0 L1850.0,1710.0 L1850.0,1607.0 L1245.0,1607.0 L1233.0,1585.0 L1130.0,1585.0 Z" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1"/>
+<text x="1490.0" y="1647.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M1150.0,1650.0 L1150.0,1690.0 L1340.0,1690.0 L1340.0,1650.0 L1260.0,1650.0 L1248.0,1630.0 L1150.0,1630.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1245.0" y="1653.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.in.rest</text>
+<text x="1245.0" y="1666.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">dto · mapper · controller</text>
+<path d="M1400.0,1650.0 L1400.0,1690.0 L1580.0,1690.0 L1580.0,1650.0 L1470.0,1650.0 L1458.0,1630.0 L1400.0,1630.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1490.0" y="1653.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="1490.0" y="1666.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">module configuration</text>
+<path d="M1640.0,1650.0 L1640.0,1690.0 L1830.0,1690.0 L1830.0,1650.0 L1745.0,1650.0 L1733.0,1630.0 L1640.0,1630.0 Z" fill="#FAF5FF" stroke="#7C3AED" stroke-width="1"/>
+<text x="1735.0" y="1647.9" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<text x="1735.0" y="1660.5500000000002" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence · external</text>
+<text x="1735.0" y="1673.2" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">service</text>
+<path d="M260.0,1808.0 L260.0,2210.0 L1040.0,2210.0 L1040.0,1808.0 L370.0,1808.0 L358.0,1780.0 L260.0,1780.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="2"/>
+<text x="650.0" y="1995.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">properties</text>
+<path d="M540.0,1842.0 L540.0,1880.0 L760.0,1880.0 L760.0,1842.0 L630.0,1842.0 L618.0,1820.0 L540.0,1820.0 Z" fill="#CFFAFE" stroke="#06B6D4" stroke-width="1"/>
+<text x="650.0" y="1843.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="650.0" y="1857.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">model · event</text>
+<path d="M290.0,1927.0 L290.0,2030.0 L1010.0,2030.0 L1010.0,1927.0 L395.0,1927.0 L383.0,1905.0 L290.0,1905.0 Z" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1"/>
+<text x="650.0" y="1967.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M310.0,1970.0 L310.0,2010.0 L490.0,2010.0 L490.0,1970.0 L390.0,1970.0 L378.0,1950.0 L310.0,1950.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+<text x="400.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="400.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">management · membership</text>
+<path d="M560.0,1970.0 L560.0,2010.0 L740.0,2010.0 L740.0,1970.0 L640.0,1970.0 L628.0,1950.0 L560.0,1950.0 Z" fill="#CFFAFE" stroke="#0891B2" stroke-width="1"/>
+<text x="650.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">service</text>
+<text x="650.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">application services</text>
+<path d="M810.0,1970.0 L810.0,2010.0 L990.0,2010.0 L990.0,1970.0 L890.0,1970.0 L878.0,1950.0 L810.0,1950.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+<text x="900.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="900.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence</text>
+<path d="M290.0,2077.0 L290.0,2180.0 L1010.0,2180.0 L1010.0,2077.0 L405.0,2077.0 L393.0,2055.0 L290.0,2055.0 Z" fill="#FFFFFF" stroke="#06B6D4" stroke-width="1"/>
+<text x="650.0" y="2117.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M310.0,2120.0 L310.0,2160.0 L500.0,2160.0 L500.0,2120.0 L420.0,2120.0 L408.0,2100.0 L310.0,2100.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+<text x="405.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.in.rest</text>
+<text x="405.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">dto · mapper · controller</text>
+<path d="M560.0,2120.0 L560.0,2160.0 L740.0,2160.0 L740.0,2120.0 L630.0,2120.0 L618.0,2100.0 L560.0,2100.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+<text x="650.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="650.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">module configuration</text>
+<path d="M800.0,2120.0 L800.0,2160.0 L990.0,2160.0 L990.0,2120.0 L905.0,2120.0 L893.0,2100.0 L800.0,2100.0 Z" fill="#ECFEFF" stroke="#0891B2" stroke-width="1"/>
+<text x="895.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<text x="895.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">persistence</text>
+<path d="M1100.0,1808.0 L1100.0,2210.0 L1880.0,2210.0 L1880.0,1808.0 L1220.0,1808.0 L1208.0,1780.0 L1100.0,1780.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="2"/>
+<text x="1490.0" y="1995.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">notifications</text>
+<path d="M1380.0,1842.0 L1380.0,1880.0 L1600.0,1880.0 L1600.0,1842.0 L1470.0,1842.0 L1458.0,1820.0 L1380.0,1820.0 Z" fill="#FFE4E6" stroke="#FB7185" stroke-width="1"/>
+<text x="1490.0" y="1843.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">domain</text>
+<text x="1490.0" y="1857.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">model · event</text>
+<path d="M1130.0,1927.0 L1130.0,2030.0 L1850.0,2030.0 L1850.0,1927.0 L1235.0,1927.0 L1223.0,1905.0 L1130.0,1905.0 Z" fill="#FFFFFF" stroke="#FB7185" stroke-width="1"/>
+<text x="1490.0" y="1967.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">application</text>
+<path d="M1150.0,1970.0 L1150.0,2010.0 L1330.0,2010.0 L1330.0,1970.0 L1230.0,1970.0 L1218.0,1950.0 L1150.0,1950.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+<text x="1240.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.in</text>
+<text x="1240.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">event handlers</text>
+<path d="M1400.0,1970.0 L1400.0,2010.0 L1580.0,2010.0 L1580.0,1970.0 L1480.0,1970.0 L1468.0,1950.0 L1400.0,1950.0 Z" fill="#FFE4E6" stroke="#E11D48" stroke-width="1"/>
+<text x="1490.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">service</text>
+<text x="1490.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">notification orchestration</text>
+<path d="M1650.0,1970.0 L1650.0,2010.0 L1830.0,2010.0 L1830.0,1970.0 L1730.0,1970.0 L1718.0,1950.0 L1650.0,1950.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+<text x="1740.0" y="1973.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">port.out</text>
+<text x="1740.0" y="1986.6000000000001" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">email · push · persistence</text>
+<path d="M1130.0,2077.0 L1130.0,2180.0 L1850.0,2180.0 L1850.0,2077.0 L1245.0,2077.0 L1233.0,2055.0 L1130.0,2055.0 Z" fill="#FFFFFF" stroke="#FB7185" stroke-width="1"/>
+<text x="1490.0" y="2117.5" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">infrastructure</text>
+<path d="M1150.0,2120.0 L1150.0,2160.0 L1340.0,2160.0 L1340.0,2120.0 L1264.0,2120.0 L1252.0,2100.0 L1150.0,2100.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+<text x="1245.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.in.event</text>
+<text x="1245.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">domain event listeners</text>
+<path d="M1400.0,2120.0 L1400.0,2160.0 L1580.0,2160.0 L1580.0,2120.0 L1470.0,2120.0 L1458.0,2100.0 L1400.0,2100.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+<text x="1490.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">config</text>
+<text x="1490.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">provider configuration</text>
+<path d="M1640.0,2120.0 L1640.0,2160.0 L1830.0,2160.0 L1830.0,2120.0 L1745.0,2120.0 L1733.0,2100.0 L1640.0,2100.0 Z" fill="#FFF1F2" stroke="#E11D48" stroke-width="1"/>
+<text x="1735.0" y="2123.95" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">adapter.out</text>
+<text x="1735.0" y="2136.6" fill="#111827" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">email · push · persistence</text>
+</svg>

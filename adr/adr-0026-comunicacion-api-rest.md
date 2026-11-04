@@ -1,6 +1,7 @@
 # definir los servicios que expone mycomplex
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-22
 

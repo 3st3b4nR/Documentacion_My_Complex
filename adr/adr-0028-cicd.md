@@ -1,6 +1,8 @@
 # automatizar la integracion y entrega continua
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
+* ADR relacionado: [ADR-0022](adr-0022-automatizacion-pruebas-despliegues.md).
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-23
 

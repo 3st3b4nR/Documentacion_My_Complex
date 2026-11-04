@@ -1,6 +1,7 @@
 # definir la estrategia de ramificacion del repositorio
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-23
 
@@ -28,8 +29,6 @@ MyComplex será desarrollado de manera incremental y requiere una forma clara de
 Opción elegida: **"GitHub Flow"**, porque utiliza una rama principal estable y ramas de corta duración para nuevas funcionalidades, correcciones o cambios específicos. Esta estrategia ofrece el nivel de control que necesita MyComplex sin introducir la complejidad de mantener ramas permanentes adicionales.
 
 El flujo esperado será crear una rama a partir de `main`, realizar el cambio, abrir un Pull Request, revisar y validar el cambio, y finalmente integrarlo nuevamente a `main`.
-
-La estrategia de ramificación no define qué herramienta automatiza las validaciones, cómo se identifican las versiones ni qué framework se utiliza para pruebas. Estas decisiones se documentan en ADR independientes.
 
 ### Consecuencias positivas
 

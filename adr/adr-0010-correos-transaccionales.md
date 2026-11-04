@@ -1,6 +1,7 @@
 # implementar el servicio de correos transaccionales
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-11
 

@@ -1,105 +1,129 @@
-# proteger la aplicacion contra ataques web
+# proteger la aplicación con OWASP Core Rule Set en un contenedor
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
-* Fecha: 2026-09-23
+* Fecha: 2026-11-04
+
+Historia técnica: actualizar la decisión para reflejar el WAF implementado por el equipo mediante OWASP Core Rule Set en un contenedor.
 
 ## Contexto y planteamiento del problema
 
-MyComplex estará disponible en Internet y recibirá solicitudes legítimas, pero también podrá recibir tráfico automatizado y ataques dirigidos a la aplicación web y a su API. Se necesita seleccionar una solución de protección web que filtre solicitudes peligrosas antes de que lleguen al sistema, que sea sencilla de operar para un equipo pequeño y que pueda utilizarse inicialmente sin generar un costo fijo elevado.
+MyComplex está expuesto a solicitudes HTTP provenientes de Internet y necesita filtrar tráfico malicioso antes de que llegue a los componentes protegidos. La solución debe detectar patrones comunes de ataque, generar registros para investigar eventos y ejecutarse de forma coherente con el uso de contenedores adoptado por el proyecto.
+
+El equipo implementó OWASP Core Rule Set en un contenedor. Este ADR documenta esa solución y evita confundir el conjunto de reglas con el motor WAF que las ejecuta. ¿Cómo debe protegerse el tráfico web de MyComplex con una solución controlada por el equipo y desplegable como contenedor?
 
 ## Impulsores de decisión
 
-* Proteger la aplicación frente a ataques web comunes (Seguridad).
-* Evitar que solicitudes claramente maliciosas lleguen directamente al backend (Seguridad).
-* Mantener una solución fácil de administrar para un equipo pequeño (Operabilidad).
-* Disponer de registros y controles básicos que ayuden a identificar tráfico sospechoso (Operabilidad y Cumplimiento).
-* Evitar una plataforma que genere un costo fijo alto desde la etapa académica y de validación (Eficiencia de costo).
-* Permitir que la solución pueda ampliarse en el futuro si MyComplex aumenta su nivel de criticidad o tráfico (Mantenibilidad y Escalabilidad).
-* Reducir la necesidad de instalar, actualizar y proteger infraestructura propia para el firewall (Mantenibilidad).
+* Detectar y bloquear patrones comunes de ataque contra aplicaciones web y API.
+* Filtrar las solicitudes antes de encaminarlas hacia el componente protegido.
+* Utilizar un conjunto de reglas abierto, mantenido y ampliamente revisado.
+* Ejecutar el WAF como contenedor para mantener un despliegue repetible.
+* Integrarse con la estrategia Docker de MyComplex.
+* Permitir ajustar reglas y exclusiones cuando existan falsos positivos.
+* Generar logs de seguridad que puedan investigarse junto con la observabilidad del sistema.
+* Evitar depender obligatoriamente de un WAF SaaS externo.
+* Mantener control sobre versiones, configuración y actualización de reglas.
 
 ## Opciones consideradas
 
-* Cloudflare WAF en su plan gratuito, con posibilidad de escalar posteriormente a un plan de pago.
-* Azure Front Door Premium con Web Application Firewall (WAF).
-* WAF administrado por el equipo con Nginx y ModSecurity.
+* OWASP Core Rule Set en un contenedor con un motor WAF compatible con ModSecurity.
+* Cloudflare WAF administrado.
+* Azure Front Door Premium con Web Application Firewall.
+* WAF instalado directamente en una máquina o servidor administrado por el equipo.
+* Publicar la aplicación sin una capa WAF.
 
 ## Resultado de la decisión
 
-Opción elegida: **"Cloudflare WAF en su plan gratuito, con posibilidad de escalar posteriormente a un plan de pago"**, porque ofrece una protección inicial suficiente para la etapa actual de MyComplex sin exigir un costo mensual fijo desde el comienzo.
+Opción elegida: **"OWASP Core Rule Set en un contenedor con un motor WAF compatible con ModSecurity"**, porque permite aplicar reglas abiertas contra ataques web comunes, mantener la configuración bajo control del equipo y desplegar la protección de forma repetible mediante contenedores.
 
-El plan gratuito de Cloudflare incluye Web Application Firewall, el **Cloudflare Free Managed Ruleset**, protección DDoS no medida, CDN y certificado SSL universal. Además, permite crear un número limitado de reglas personalizadas para bloquear o desafiar solicitudes que cumplan condiciones definidas por el equipo.
+**OWASP Core Rule Set (CRS) es el conjunto de reglas de detección.** Las reglas necesitan un motor WAF compatible, como ModSecurity, para inspeccionar las solicitudes y tomar la acción configurada. El contenedor reúne el motor, CRS y el componente de proxy necesario para recibir tráfico y reenviar únicamente las solicitudes permitidas.
 
-Esta alternativa permite comenzar con una cobertura de seguridad razonable para el entorno académico y de validación, manteniendo el costo inicial en cero para las funciones incluidas en el plan gratuito. Si MyComplex evoluciona hacia una operación más crítica, con mayor tráfico, necesidades avanzadas de reglas o requisitos empresariales, se podrá migrar a un plan superior sin cambiar el concepto arquitectónico de utilizar un WAF administrado delante de la aplicación.
+Este repositorio documental no contiene la configuración operativa del contenedor y no permite verificar si la variante utilizada se basa en Apache o Nginx. Por ello, el ADR no fija una variante, etiqueta de imagen, nivel de paranoia, umbral de anomalía, puerto o ruta de despliegue que no estén documentados localmente.
 
-La decisión prioriza simplicidad, costo y protección suficiente para la etapa actual, evitando adoptar desde el inicio una solución Premium cuya capacidad y costo serían desproporcionados frente al tamaño del proyecto.
+El WAF protege exclusivamente el tráfico que se encamina a través de su contenedor. Los componentes no expuestos detrás de esta ruta no quedan protegidos automáticamente. La topología de publicación debe evitar rutas alternativas que permitan acceder directamente al servicio protegido y omitir la inspección.
+
+La configuración debe mantener una versión controlada de CRS, revisar actualizaciones de la imagen, registrar los eventos de seguridad y ajustar exclusiones específicas cuando una solicitud legítima active una regla. Deshabilitar reglas de manera general reduce la cobertura y debe evitarse cuando sea posible resolver el caso con una exclusión acotada.
 
 ### Consecuencias positivas
 
-* MyComplex obtiene protección web administrada sin un costo mensual fijo inicial por el plan gratuito.
-* Se bloquean ataques y vulnerabilidades de alto impacto mediante reglas administradas incluidas en el plan gratuito.
-* Se reduce la exposición directa de la aplicación frente a tráfico malicioso.
-* Cloudflare incluye protección DDoS no medida y certificado SSL universal dentro del plan gratuito.
-* El equipo no debe instalar ni mantener un servidor WAF propio.
-* Se pueden agregar reglas personalizadas para necesidades específicas de MyComplex.
-* La solución puede escalar posteriormente a un plan superior si las necesidades de seguridad aumentan.
-* Reduce la carga operativa y de mantenimiento del equipo.
+* MyComplex dispone de un WAF implementado con reglas abiertas de OWASP CRS.
+* El contenedor facilita repetir el despliegue entre ambientes.
+* El equipo controla versiones, reglas, umbrales y exclusiones.
+* La solución puede proteger componentes existentes sin incorporar lógica WAF dentro del código de la aplicación.
+* Los logs del motor permiten investigar solicitudes bloqueadas y reglas activadas.
+* La arquitectura evita depender obligatoriamente de Cloudflare o de una edición Premium de Azure Front Door.
 
 ### Consecuencias negativas
 
-* El plan gratuito dispone de un conjunto más limitado de reglas que los planes superiores.
-* El Cloudflare Managed Ruleset completo y el OWASP Core Ruleset no están incluidos en el plan gratuito.
-* El número de reglas personalizadas disponibles en el plan gratuito es limitado.
-* Algunas funciones avanzadas de seguridad, análisis y soporte requieren planes de pago.
-* MyComplex dependerá de Cloudflare para la protección perimetral.
-* Será necesario revisar periódicamente que la cobertura gratuita siga siendo suficiente para el nivel de riesgo de la plataforma.
+* El equipo debe actualizar, proteger, supervisar y respaldar la configuración del contenedor.
+* Una configuración demasiado estricta puede bloquear solicitudes legítimas.
+* Una configuración demasiado permisiva puede reducir la protección esperada.
+* El análisis de solicitudes consume CPU, memoria y añade latencia.
+* El contenedor se convierte en un componente que debe mantenerse disponible.
+* Las reglas genéricas requieren ajustes para los endpoints y formatos reales de MyComplex.
+* Una ruta pública que omita el WAF permitiría acceder al servicio sin inspección.
+* El WAF reduce exposición a ciertos ataques, pero no corrige vulnerabilidades ni reemplaza autenticación, autorización o validaciones del backend.
 
 ## Pros y contras de las opciones
 
-### Cloudflare WAF en su plan gratuito
+### OWASP Core Rule Set en un contenedor
 
-Servicio de seguridad perimetral administrado que puede colocarse delante de la aplicación y la API de MyComplex.
+CRS se ejecuta mediante un motor WAF compatible dentro de una imagen desplegable como proxy inverso.
 
-* Bien, porque el plan gratuito incluye WAF y el Cloudflare Free Managed Ruleset.
-* Bien, porque permite comenzar sin pagar una suscripción mensual fija.
-* Bien, porque incluye protección DDoS no medida.
-* Bien, porque incluye CDN y certificado SSL universal, reduciendo la necesidad de agregar servicios adicionales para estas funciones básicas.
-* Bien, porque permite reglas personalizadas aun en el plan gratuito.
-* Bien, porque no requiere instalar ni mantener infraestructura propia.
-* Bien, porque puede ampliarse a planes superiores si MyComplex crece.
-* Malo, porque el conjunto gratuito de reglas administradas es más limitado que el disponible en planes pagos.
-* Malo, porque algunas capacidades avanzadas requieren actualizar el plan.
-* Malo, porque aumenta la dependencia de un proveedor externo.
+* Bien, porque utiliza reglas abiertas orientadas a ataques web comunes.
+* Bien, porque permite controlar versiones y configuración.
+* Bien, porque encaja con Docker y el despliegue mediante contenedores.
+* Bien, porque admite ajustes y exclusiones específicos para MyComplex.
+* Bien, porque evita introducir lógica de filtrado dentro del Gateway o backend.
+* Malo, porque exige operación, actualización y monitoreo por parte del equipo.
+* Malo, porque requiere pruebas para controlar falsos positivos y falsos negativos.
+* Malo, porque añade consumo de recursos, latencia y un componente adicional en la ruta.
 
-### Azure Front Door Premium con Web Application Firewall (WAF)
+### Cloudflare WAF administrado
 
-Servicio administrado de Azure con WAF integrado y capacidades avanzadas de seguridad y distribución.
+Servicio perimetral que filtra tráfico antes de llegar a la infraestructura de MyComplex.
 
-* Bien, porque ofrece reglas administradas avanzadas e integración con otros servicios Azure.
-* Bien, porque permite centralizar seguridad, distribución y publicación dentro del ecosistema Azure.
-* Bien, porque es adecuado para aplicaciones empresariales con requisitos elevados.
-* Malo, porque introduce un costo fijo considerable desde el inicio.
-* Malo, porque su capacidad resulta sobredimensionada para la etapa académica y de validación de MyComplex.
-* Malo, porque aumenta la dependencia del ecosistema Azure.
+* Bien, porque reduce la infraestructura WAF que debe operar el equipo.
+* Bien, porque integra protección perimetral y mitigación de tráfico malicioso.
+* Malo, porque traslada configuración y operación a un proveedor externo.
+* Malo, porque las funciones disponibles dependen del plan contratado.
+* Malo, porque no corresponde a la implementación realizada por el equipo.
 
-### WAF administrado por el equipo con Nginx y ModSecurity
+### Azure Front Door Premium con Web Application Firewall
 
-Firewall desplegado, configurado y mantenido directamente por el equipo de MyComplex.
+Servicio administrado de entrada global y WAF dentro de Azure.
 
-* Bien, porque ofrece alto control sobre las reglas y la configuración.
-* Bien, porque evita depender de un servicio WAF administrado.
-* Malo, porque requiere instalar, actualizar, proteger y monitorear el servicio.
-* Malo, porque introduce un nuevo componente que puede convertirse en punto de falla.
-* Malo, porque aumenta la carga operativa y de mantenimiento del equipo.
-* Malo, porque traslada al equipo responsabilidades de seguridad que un servicio administrado puede resolver con menor esfuerzo.
+* Bien, porque se integra con recursos y control de acceso del ecosistema Azure.
+* Bien, porque reduce la administración del motor y las reglas base.
+* Malo, porque agrega costo y configuración superiores a la solución contenedorizada adoptada.
+* Malo, porque no corresponde al WAF implementado actualmente.
+
+### WAF instalado directamente en un servidor
+
+Motor y reglas instalados en una máquina administrada por el equipo.
+
+* Bien, porque permite un control semejante al contenedor.
+* Malo, porque dificulta repetir y versionar el despliegue.
+* Malo, porque aumenta la dependencia de la configuración particular del servidor.
+* Malo, porque se aparta de la estrategia de empaquetado con Docker.
+
+### Publicar sin WAF
+
+Las solicitudes llegarían directamente al Gateway o al backend.
+
+* Bien, porque elimina un componente y su latencia.
+* Malo, porque pierde una capa de detección y bloqueo de ataques web comunes.
+* Malo, porque deja toda la mitigación en manos de la aplicación y otros controles.
 
 ## Enlaces
 
-* Relacionado con el ADR de autorización y control de acceso.
-* Relacionado con el ADR de publicación mediante dominio y HTTPS.
-* Relacionado con el ADR de monitoreo de la plataforma.
-* Relacionado con el atributo de calidad de Seguridad.
-* Cloudflare Plans: https://www.cloudflare.com/plans/
-* Cloudflare WAF - Get Started: https://developers.cloudflare.com/waf/get-started/
-* Cloudflare Managed Rules: https://developers.cloudflare.com/waf/managed-rules/
-* Cloudflare Custom Rules: https://developers.cloudflare.com/waf/custom-rules/
+* Autenticación: [ADR-0006](adr-0006-autenticacion.md).
+* Autorización: [ADR-0007](adr-0007-autorizacion.md).
+* Empaquetado con Docker: [ADR-0016](adr-0016-empaquetado-docker.md).
+* Ejecución de contenedores en Azure: [ADR-0017](adr-0017-ejecucion-nube.md).
+* Registro de imágenes: [ADR-0020](adr-0020-registro-contenedores.md).
+* Acceso público centralizado: [ADR-0032](adr-0032-API-Gateway.md).
+* Observabilidad y consulta de logs: [ADR-0033](adr-0033-arquitectura-observabilidad.md).
+* Proyecto oficial: [OWASP Core Rule Set](https://coreruleset.org/).
+* Imagen oficial: [ModSecurity Docker con OWASP CRS](https://github.com/coreruleset/modsecurity-crs-docker).

@@ -1,6 +1,8 @@
 # automatizar pruebas y despliegues
 
-* Estado: propuesto
+* Estado de decisión: Aceptado
+* Estado de implementación: Implementado
+* ADR relacionado: [ADR-0028](adr-0028-cicd.md).
 * Decidentes: Jaider Sebastián Lucuara Cortés - John Esteban Roldán Marín
 * Fecha: 2026-09-22
 

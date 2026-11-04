@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.0 -40.0 1845.114664554596 941.7916564941406" width="1845.114664554596" height="941.7916564941406">
+<rect x="-40.0" y="-40.0" width="1845.114664554596" height="941.7916564941406" fill="#111111"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="305.11466455459595" y1="221.79165649414062" x2="765.114664554596" y2="221.79165649414062" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="765.114664554596" y1="263.7916564941406" x2="1225.114664554596" y2="263.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1225.114664554596" y1="305.7916564941406" x2="1685.114664554596" y2="305.7916564941406" stroke="#78A7E3" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<line x1="1685.114664554596" y1="347.7916564941406" x2="1225.114664554596" y2="347.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="1225.114664554596" y1="389.7916564941406" x2="765.114664554596" y2="389.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<line x1="765.114664554596" y1="431.7916564941406" x2="305.11466455459595" y2="431.7916564941406" stroke="#AAB4C3" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="1050.0046645545958" y="15.001656494140619" fill="#E5E7EB" font-family="Arial" font-size="16.0" font-weight="bold" text-anchor="middle">Diagrama de Secuencia - Audit Module</text>
+<rect x="235.11" y="50.0" width="1520.0" height="811.79" rx="0" fill="none" stroke="#9CA3AF" stroke-width="1.2"/>
+<text x="995.11" y="455.895" fill="#E5E7EB" font-family="Arial" font-size="11.0" font-weight="bold" text-anchor="middle">sd Diagrama de Secuencia - Audit Module</text>
+<rect x="235.11466455459595" y="131.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="305.11466455459595" y="157.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Módulo de Aplicación</text>
+<line x1="305.11466455459595" y1="173.79165649414062" x2="305.11466455459595" y2="861.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="695.114664554596" y="131.79165649414062" width="140.0" height="42" rx="3" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<text x="765.114664554596" y="157.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Audit Application</text>
+<line x1="765.114664554596" y1="173.79165649414062" x2="765.114664554596" y2="861.7916564941406" stroke="#70AD47" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1145.114664554596" y="131.79165649414062" width="160.0" height="42" rx="3" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<text x="1225.114664554596" y="157.79165649414062" fill="#FFFFFF" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Persistence Adapter</text>
+<line x1="1225.114664554596" y1="173.79165649414062" x2="1225.114664554596" y2="861.7916564941406" stroke="#D66A63" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="1605.114664554596" y="131.79165649414062" width="160.0" height="42" rx="3" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="1685.114664554596" y="157.79165649414062" fill="#FFF1D6" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">PostgreSQL</text>
+<line x1="1685.114664554596" y1="173.79165649414062" x2="1685.114664554596" y2="861.7916564941406" stroke="#E0A11A" stroke-width="1" stroke-dasharray="4 4"/>
+<rect x="760.114664554596" y="213.79165649414062" width="10.0" height="226.0" rx="0" fill="#21402E" stroke="#70AD47" stroke-width="1"/>
+<rect x="1220.114664554596" y="255.79165649414062" width="10.0" height="142.0" rx="0" fill="#4A2424" stroke="#D66A63" stroke-width="1"/>
+<rect x="1680.114664554596" y="297.7916564941406" width="10.0" height="58.0" rx="0" fill="#4A2C0A" stroke="#E0A11A" stroke-width="1"/>
+<text x="535.114664554596" y="218.79165649414062" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">registrarEvento(actor, accion, recurso, resultado)</text>
+<text x="995.114664554596" y="260.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">guardarEvento(evento)</text>
+<text x="1455.114664554596" y="302.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">insertar evento de auditoría</text>
+<text x="1455.114664554596" y="344.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">evento persistido</text>
+<text x="995.114664554596" y="386.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">evento guardado</text>
+<text x="535.114664554596" y="428.7916564941406" fill="#E5E7EB" font-family="Arial" font-size="12.0" font-weight="normal" text-anchor="middle">auditoría registrada</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40.1783 -40.0 1750.1783 960.0" width="1750.1783" height="960.0">
+<rect x="-40.1783" y="-40.0" width="1750.1783" height="960.0" fill="#FFFFFF"/>
+<defs>
+          <marker id="arrowBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polygon points="0 0,9 3.5,0 7" fill="#78A7E3"/>
+          </marker>
+          <marker id="arrowGray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+            <polyline points="0 0,9 3.5,0 7" fill="none" stroke="#AAB4C3" stroke-width="1.2"/>
+          </marker>
+        </defs>
+<line x1="680.0" y1="400.0" x2="1350.0" y2="400.0" stroke="#AAB4C3" stroke-width="1.2"/>
+<path d="M 1015.0 160.0 L 847.5 160.0 L 847.5 400.0 L 680.0 400.0" fill="none" stroke="#2563EB" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="847.5" y="275.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«component scan»</text>
+<path d="M 1015.0 160.0 L 1182.5 160.0 L 1182.5 400.0 L 1350.0 400.0" fill="none" stroke="#2563EB" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1182.5" y="275.0" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«component scan»</text>
+<path d="M 680.0 410.0 L 585.0 410.0 L 585.0 777.5 L 490.0 777.5" fill="none" stroke="#2563EB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="585.0" y="588.75" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<path d="M 680.0 410.0 L 705.0 410.0 L 705.0 777.5 L 730.0 777.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="705.0" y="588.75" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<path d="M 680.0 410.0 L 860.0 410.0 L 860.0 777.5 L 1040.0 777.5" fill="none" stroke="#2563EB" stroke-width="1.2" stroke-dasharray="8 8" marker-end="url(#arrowGray)"/>
+<text x="860.0" y="588.75" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«implements»</text>
+<line x1="1350.0" y1="410.0" x2="1340.0" y2="777.5" stroke="#475569" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1345.0" y="588.75" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«uses»</text>
+<path d="M 1350.0 410.0 L 1450.0 410.0 L 1450.0 777.5 L 1550.0 777.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrowBlue)"/>
+<text x="1450.0" y="588.75" fill="#111827" font-family="Arial" font-size="11" text-anchor="middle">«creates @Bean»</text>
+<path d="M360.0,100.0 L360.0,590.0 L1670.0,590.0 L1670.0,100.0 L570.0,100.0 L558.0,70.0 L360.0,70.0 Z" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+<text x="1015.0" y="330.0" fill="#111827" font-family="Arial" font-size="15.0" font-weight="bold" text-anchor="middle">com.mycomplex.gateway</text>
+<rect x="850.0" y="125.0" width="330.0" height="70.0" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="1015.0" y="152.85" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">MycomplexGatewayApplication</text>
+<text x="1015.0" y="167.79999999999998" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">@SpringBootApplication</text>
+<path d="M430.0,316.0 L430.0,510.0 L930.0,510.0 L930.0,316.0 L520.0,316.0 L508.0,290.0 L430.0,290.0 Z" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="680.0" y="400.0" fill="#111827" font-family="Arial" font-size="14.0" font-weight="bold" text-anchor="middle">filter</text>
+<rect x="500.0" y="370.0" width="360.0" height="80.0" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+<text x="680.0" y="403.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">CorrelationIdFilter</text>
+<text x="680.0" y="417.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Global request correlation filter</text>
+<path d="M1100.0,316.0 L1100.0,510.0 L1600.0,510.0 L1600.0,316.0 L1200.0,316.0 L1188.0,290.0 L1100.0,290.0 Z" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+<text x="1350.0" y="400.0" fill="#111827" font-family="Arial" font-size="14.0" font-weight="bold" text-anchor="middle">security</text>
+<rect x="1170.0" y="370.0" width="360.0" height="80.0" rx="8" fill="#DBEAFE" stroke="#3B82F6" stroke-width="1"/>
+<text x="1350.0" y="403.4" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">GatewaySecurityConfig</text>
+<text x="1350.0" y="417.2" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Reactive security configuration</text>
+<path d="M360.0,686.0 L360.0,880.0 L860.0,880.0 L860.0,686.0 L610.0,686.0 L598.0,660.0 L360.0,660.0 Z" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="610.0" y="770.0" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">org.springframework.cloud.gateway.filter</text>
+<rect x="395.0" y="740.0" width="190.0" height="75.0" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="490.0" y="770.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">GlobalFilter</text>
+<text x="490.0" y="784.6999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">interface</text>
+<rect x="635.0" y="740.0" width="190.0" height="75.0" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="730.0" y="770.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">GatewayFilterChain</text>
+<text x="730.0" y="784.6999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">interface</text>
+<path d="M910.0,686.0 L910.0,880.0 L1170.0,880.0 L1170.0,686.0 L1066.0,686.0 L1054.0,660.0 L910.0,660.0 Z" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="1040.0" y="770.0" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">org.springframework.core</text>
+<rect x="945.0" y="740.0" width="190.0" height="75.0" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="1040.0" y="770.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">Ordered</text>
+<text x="1040.0" y="784.6999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">interface</text>
+<path d="M1220.0,686.0 L1220.0,880.0 L1670.0,880.0 L1670.0,686.0 L1490.0,686.0 L1478.0,660.0 L1220.0,660.0 Z" fill="#F8FAFC" stroke="#64748B" stroke-width="2"/>
+<text x="1445.0" y="770.0" fill="#111827" font-family="Arial" font-size="13.0" font-weight="bold" text-anchor="middle">org.springframework.security.config.web.server</text>
+<rect x="1250.0" y="740.0" width="180.0" height="75.0" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="1340.0" y="770.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">ServerHttpSecurity</text>
+<text x="1340.0" y="784.6999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">class</text>
+<rect x="1460.0" y="740.0" width="180.0" height="75.0" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text x="1550.0" y="770.9" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">SecurityWebFilterChain</text>
+<text x="1550.0" y="784.6999999999999" fill="#111827" font-family="Arial" font-size="12.0" font-weight="bold" text-anchor="middle">interface</text>
+</svg>
